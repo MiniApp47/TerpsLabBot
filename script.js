@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const contactLinks = [
         {
             name: 'TELEGRAM PRINCIPAL 🥇',
-            url: '',
+            url: 'https://t.me/+OxAZxwtDm9FlMTI0',
             icon: '#icon-telegram',
             id: 'telegram-main',
             className: 'telegram-main', // Référence le CSS Bleu
@@ -18,12 +18,20 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             name: 'POTATO PRINCIPAL 🥔',
-            url: '',
+            url: 'https://duanym138.org/TERPSLAB33',
             icon: '#icon-potato',
             id: 'potato-main',
             className: 'potato-main', // Référence le CSS Marron/Doré
             text: "POTATO PRINCIPAL 🥔"
         },
+        {
+            name: 'PAGE INSTAGRAM 📸',
+            url: 'https://www.instagram.com/terps.lab?igsh=eGF6aTV2dTlrbGxi&utm_source=qr', // <--- Pense à mettre ton vrai lien Insta ici !
+            icon: '#icon-instagram',
+            id: 'insta-main',
+            className: 'insta-main', // Référence le CSS Sunset
+            text: "PAGE INSTAGRAM 📸"
+        }/* ,,
         {
             name: 'CANAL LUFFA 🟣',
             url: '',
@@ -33,21 +41,13 @@ document.addEventListener('DOMContentLoaded', function () {
             text: "CANAL LUFFA 🟣"
         },
         {
-            name: 'PAGE INSTAGRAM 📸',
-            url: '', // <--- Pense à mettre ton vrai lien Insta ici !
-            icon: '#icon-instagram',
-            id: 'insta-main',
-            className: 'insta-main', // Référence le CSS Sunset
-            text: "PAGE INSTAGRAM 📸"
-        },
-        {
             name: 'TELEGRAM DE SECOURS 🛟',
             url: '',
             icon: '#icon-telegram',
             id: 'telegram-secours',
             className: 'telegram-secours', // Référence le CSS Bleu
             text: "TELEGRAM DE SECOURS 🛟"
-        }
+        } */
     ];
 
     // --- DONNÉES DE L'APPLICATION (NOUVELLE STRUCTURE) ---
@@ -171,80 +171,46 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 }
             ]
-        }
+        },
 
-       /*  // --- Catégorie 2: BEUH ---
+        // --- Catégorie 2: BEUH ---
         {
             id: 'WEED',
-            name: ' 🪴 Weed 🪴',
+            name: ' 🕯 Weed 🕯',
             farm: '',
             type: 'Weed',
-            quality: ' 🪴 Weed 🪴',
-            image: 'CategWeed.jpg', // Image de la catégorie
+            quality: ' 🕯 Weed 🕯',
+            image: 'CategWeed.png', // Image de la catégorie
 
             farms: [
                 {
-                    id: 'CALIUS', // J'ai inventé un ID de farm
-                    name: '🇺🇸 Cali US 🇺🇸',
-                    image: 'Wizard4.png', // Mets une image de farm si tu veux
+                    id: 'Amnesia Haze', // J'ai inventé un ID de farm
+                    name: 'Amnesia Haze 🧠',
+                    image: '', // Mets une image de farm si tu veux
                     badgeText: '2 produits',
                     products: [
                         {
-                            id: 'GUSHERS',
-                            //flag: '🇺🇸',
-                            name: 'GUSHERS 2.0 🍬🍭',
-                            farm: 'PARLAY LA 🇺🇸 ™️©️',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductGush.jpg',
-                            video: 'VideoGush.mp4',
-                            description: 'Comme le bonbon Gushers : une explosion de fruits tropicaux.\n\n🇺🇸 <i>Import Cali authentique, têtes denses et colorées.</i>',
-                            tarifs: [
-                                { weight: '3,5g', price: 70.00 },
-                                { weight: '7g', price: 130.00 },
-                                { weight: '14g', price: 230.00 },
-                                { weight: '56g', price: 650.00 },
-                            ]
-                        },
-                        {
-                            id: 'CANDLE',
-                            //flag: '🇺🇸',
-                            name: 'CANDLE WAVE 🌊🍭',
-                            farm: 'PARLAY LA 🇺🇸 ™️©️',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductCandle.jpg',
-                            video: 'VideoCandle.mp4',
-                            description: 'Un profil unique, très parfumé avec une fumée douce.\n\n🌊 <i>Manucure parfaite, c\'est du propre made in USA.</i>',
-                            tarifs: [
-                                { weight: '3,5g', price: 70.00 },
-                                { weight: '7g', price: 130.00 },
-                                { weight: '14g', price: 230.00 },
-                                { weight: '56g', price: 650.00 },
-                            ]
-                        },
-                        {
-                            id: 'PAPAYA',
+                            id: 'PAPAYA x CHERRY GELATO 🍒 🥭',
                             //flag: '🇺🇸',
                             name: 'PAPAYA x CHERRY GELATO 🍒 🥭',
                             farm: 'CALI NO BRAND ™️©️',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductPapaya.jpg',
-                            video: 'VideoPapaya.mp4',
-                            description: 'Le mariage de la Papaye et de la Cerise Gelato. Très fruité.\n\n🍒 <i>LA FOLIE 🤪 ‼️ Goût intense et buds magnifiques.</i>',
+                            image: 'ProductGush.jpg',
+                            video: 'VideoGush.mp4',
+                            description: 'Le mariage de la Papaye et de la Cerise Gelato. Très fruité. \n\n 🍒 LA FOLIE 🤪 ‼️ Goût intense et buds magnifiques.',
                             tarifs: [
                                 { weight: '5g', price: 70.00 },
                                 { weight: '10g', price: 120.00 },
                                 { weight: '25g', price: 220.00 },
                                 { weight: '50g', price: 420.00 },
                                 { weight: '100g', price: 800.00 },
-
                             ]
-                        }
+                        },
+                       
                     ]
-                },
-                {
+                }
+                /* {
                     id: 'WEEDholland', // J'ai inventé un ID de farm
                     name: '🇳🇱 Weed Hollandaise 🇳🇱',
                     image: 'Wizard4.png', // Mets une image de farm si tu veux
@@ -268,7 +234,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         }
                     ]
-                }
+                } */
             ]
         },
         // --- Catégorie 3:      Extraction
