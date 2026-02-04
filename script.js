@@ -177,64 +177,27 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'WEED',
             name: ' 🕯 Weed 🕯',
-            farm: '',
             type: 'Weed',
-            quality: ' 🕯 Weed 🕯',
-            image: 'CategWeed.png', // Image de la catégorie
-
-            farms: [
+            image: 'CategWeed.png', 
+            // On supprime le tableau "farms" et on met "products" direct ici
+            products: [
                 {
-                    id: 'Amnesia Haze', // J'ai inventé un ID de farm
-                    name: 'Amnesia Haze 🧠',
-                    image: '', // Mets une image de farm si tu veux
-                    badgeText: '2 produits',
-                    products: [
-                        {
-                            id: 'PAPAYA x CHERRY GELATO 🍒 🥭',
-                            //flag: '🇺🇸',
-                            name: 'PAPAYA x CHERRY GELATO 🍒 🥭',
-                            farm: 'CALI NO BRAND ™️©️',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductGush.jpg',
-                            video: 'VideoGush.mp4',
-                            description: 'Le mariage de la Papaye et de la Cerise Gelato. Très fruité. \n\n 🍒 LA FOLIE 🤪 ‼️ Goût intense et buds magnifiques.',
-                            tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 220.00 },
-                                { weight: '50g', price: 420.00 },
-                                { weight: '100g', price: 800.00 },
-                            ]
-                        },
-                       
+                    id: 'PAPAYA_CHERRY_GELATO',
+                    name: 'PAPAYA x CHERRY GELATO 🍒 🥭',
+                    farm: 'CALI NO BRAND ™️©️',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGush.jpg',
+                    video: 'VideoGush.mp4',
+                    description: 'Le mariage de la Papaye et de la Cerise Gelato. Très fruité. \n\n 🍒 LA FOLIE 🤪 ‼️ Goût intense et buds magnifiques.',
+                    tarifs: [
+                        { weight: '5g', price: 70.00 },
+                        { weight: '10g', price: 120.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 420.00 },
+                        { weight: '100g', price: 800.00 },
                     ]
-                }
-                /* {
-                    id: 'WEEDholland', // J'ai inventé un ID de farm
-                    name: '🇳🇱 Weed Hollandaise 🇳🇱',
-                    image: 'Wizard4.png', // Mets une image de farm si tu veux
-                    badgeText: '2 produits',
-                    products: [
-                        {
-                            id: 'AMNESIA HAZE',
-                            //flag: '🇺🇸',
-                            name: 'AMNESIA HAZE ⛽️ 🌲',
-                            farm: 'NO BRAND ™️©️',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductAmne.jpg',
-                            video: 'VideAmne.mp4',
-                            description: 'L\'indémodable Haze à la puissance légendaire. Attendez-vous à un \'high\' cérébral stimulant et euphorique. \n\n🍋 Arômes Vifs & Citronnés 🍋\n avec des notes de poivre et d\'encens. Une expérience Haze authentique et pure.',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 270.00 },
-                                { weight: '100g', price: 500.00 },
-                            ]
-                        }
-                    ]
-                } */
+                }   
             ]
         },
         // --- Catégorie 3:      Extraction
@@ -468,19 +431,27 @@ document.addEventListener('DOMContentLoaded', function () {
     const farmFilterWrapper = document.getElementById('farm-filter').parentElement;
     // --- FIN NOUVEAUX SÉLECTEURS ---
 
-    // --- HELPER : TROUVER UN PRODUIT PAR SON ID ---
-    function getProductById(productId) {
-        for (const category of appData) {
-            // Boucle dans les farms de chaque catégorie
+// --- HELPER : TROUVER UN PRODUIT PAR SON ID (Version Correcte) ---
+function getProductById(productId) {
+    for (const category of appData) {
+        // Cas 1 : La catégorie a des produits en direct (comme ta nouvelle structure Weed)
+        if (category.products) {
+            const product = category.products.find(p => p.id === productId);
+            if (product) return product;
+        }
+        
+        // Cas 2 : La catégorie a des sous-catégories/farms (comme Hash)
+        if (category.farms) {
             for (const farm of category.farms) {
-                const product = farm.products.find(p => p.id === productId);
-                if (product) {
-                    return product;
+                if (farm.products) {
+                    const product = farm.products.find(p => p.id === productId);
+                    if (product) return product;
                 }
             }
         }
-        return undefined; // Non trouvé
     }
+    return undefined;
+}
 
     // --- NAVIGATION ---
     function showPage(pageId) {
@@ -663,36 +634,14 @@ document.addEventListener('DOMContentLoaded', function () {
             // --- FIN DU BLOC COMMENTÉ ---
 
         } else if (currentView === 'products') {
-            // --- MODIFICATION : On ne passe plus currentFarmId ---
+            // On appelle la fonction de rendu qui gère déjà son propre bouton
             renderProductList(currentCategoryId);
 
-            // --- GESTION DES FILTRES (Vue Produit) ---
+            // GESTION DES FILTRES ET DE LA GRILLE
             searchFilterWrapper.style.display = 'flex';
             farmFilterWrapper.style.display = 'none';
             qualityFilterWrapper.style.display = 'none';
-
-            // --- GESTION DU STYLE DE GRILLE ---
-            productListContainer.style.gridTemplateColumns = 'repeat(2, 1fr)'; // 2 colonnes
-
-            // --- MODIFICATION : Le bouton "Retour" ramène aux CATÉGORIES ---
-            const category = appData.find(c => c.id === currentCategoryId);
-            // const farm = category.farms.find(f => f.id === currentFarmId); // <- On n'a plus besoin de ça
-            const backButton = document.createElement('button');
-            backButton.className = 'back-to-categories-btn'; // <-- MODIFIÉ (pour réutiliser le clic)
-            backButton.innerHTML = `<svg width="24"
-         height="24"
-          viewBox="0 0 24 24"
-          ><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>  ${category.name}`; // <-- MODIFIÉ (on affiche le nom de la catégorie)
-            backButton.style.cssText = ` background: linear-gradient(180deg, black, transparent); 
-            border-bottom: 2px solid #f78900;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-        color: white; padding: 10px 15px; 
-        border-radius: 10px; font-size: 1.1rem; 
-        font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin-top: 3vh;    font-family: Copperplate;
-        `;
-            filterContainer.prepend(backButton);
+            productListContainer.style.gridTemplateColumns = 'repeat(2, 1fr)'; 
         }
     }
 
@@ -726,90 +675,82 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Affiche la liste des PRODUITS (Version optimisée PROMO)
     function renderProductList(categoryId) {
         const category = appData.find(c => c.id === categoryId);
         if (!category) {
             productListContainer.innerHTML = '<p class="no-results">Catégorie non trouvée.</p>';
             return;
         }
-
+    
+        // --- 1. NETTOYAGE DES BOUTONS PRÉCÉDENTS ---
+        // Supprime tous les boutons de retour existants dans le conteneur de filtres
+        const oldBackButtons = filterContainer.querySelectorAll('.back-to-categories-btn, .back-to-farms-btn');
+        oldBackButtons.forEach(btn => btn.remove());
+    
         let allProducts = [];
-
-        // CAS 1 : Sous-catégorie précise
-        if (currentFarmId) {
-            const selectedFarm = category.farms.find(f => f.id === currentFarmId);
-            if (selectedFarm) {
-                allProducts = selectedFarm.products;
+    
+        // --- 2. RÉCUPÉRATION DES PRODUITS ---
+        // Cas A : Produits en direct (comme ta nouvelle structure WEED)
+        if (category.products) {
+            allProducts = category.products;
+        } 
+        // Cas B : Produits via sous-catégories (comme HASH)
+        else if (category.farms) {
+            if (currentFarmId) {
+                const selectedFarm = category.farms.find(f => f.id === currentFarmId);
+                if (selectedFarm) allProducts = selectedFarm.products;
+            } else {
+                allProducts = category.farms.flatMap(farm => farm.products);
             }
-            // Bouton retour... (ton code habituel ici)
-            const backButton = document.createElement('button');
-            backButton.className = 'back-to-farms-btn';
-            backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> Retour aux choix`;
-            backButton.style.cssText = `background: linear-gradient(180deg, black, transparent); border-bottom: 2px solid #f78900; border-top: none; border-left: none; border-right: none; color: white; padding: 10px 15px; border-radius: 10px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin-top: 3vh; font-family: Copperplate;`;
-
-            const existingBtn = filterContainer.querySelector('.back-to-farms-btn');
-            if (!existingBtn) filterContainer.prepend(backButton);
         }
-        // CAS 2 : Tout afficher
-        else {
-            allProducts = category.farms.flatMap(farm => farm.products);
-            // Bouton retour... (ton code habituel ici)
-            const backButton = document.createElement('button');
-            backButton.className = 'back-to-categories-btn';
-            backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
-            backButton.style.cssText = `background: linear-gradient(180deg, black, transparent); border-bottom: 2px solid #f78900; border-top: none; border-left: none; border-right: none; color: white; padding: 10px 15px; border-radius: 10px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin-top: 3vh; font-family: Copperplate;`;
-
-            const existingBtn = filterContainer.querySelector('.back-to-categories-btn');
-            if (!existingBtn) filterContainer.prepend(backButton);
-        }
-
+    
+        // --- 3. CRÉATION DU BOUTON RETOUR UNIQUE ---
+        const backButton = document.createElement('button');
+        // On utilise une classe cohérente pour le CSS
+        backButton.className = 'back-to-categories-btn';
+        backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
+        
+        // Application du style visuel
+        backButton.style.cssText = `
+            background: linear-gradient(180deg, black, transparent); 
+            border-bottom: 2px solid #f78900; 
+            border-top: none; border-left: none; border-right: none;
+            color: white; padding: 10px 15px; 
+            border-radius: 10px; font-size: 1.1rem; 
+            font-weight: 700; cursor: pointer; 
+            display: flex; align-items: center; 
+            gap: 10px; width: 100%; box-sizing: border-box; 
+            margin-top: 3vh; font-family: Copperplate;
+        `;
+    
+        filterContainer.prepend(backButton);
+    
+        // --- 4. FILTRAGE ET AFFICHAGE DES PRODUITS ---
         if (!allProducts || allProducts.length === 0) {
-            productListContainer.innerHTML = '<p class="no-results">Aucun produit trouvé.</p>';
+            productListContainer.innerHTML = '<p class="no-results">Aucun produit trouvé dans cette section.</p>';
             return;
         }
-
-        // Filtrage... (ton code habituel)
+    
         const filteredProducts = allProducts.filter(product => {
             const searchMatch = product.name.toLowerCase().includes(currentFilters.searchTerm.toLowerCase());
             const farmMatch = currentFarmId ? true : (currentFilters.farm === 'all' || product.farm === currentFilters.farm);
             return searchMatch && farmMatch;
         });
-
+    
         productListContainer.innerHTML = '';
-
-        // --- BOUCLE D'AFFICHAGE DES CARTES ---
+    
         filteredProducts.forEach(product => {
             const card = document.createElement('div');
-
-            // 1. SI C'EST UNE PROMO (Type 'Promo')
-            if (product.type === 'Promo') {
-                card.className = 'product-card promo-card'; // Nouvelle classe CSS
-                // On ajoute un écouteur spécial pour ajouter au panier directement
-                /*   card.addEventListener('click', () => {
-                      addToCart(product.id, 'Pack Noël', product.tarifs[0].price);
-                  }); */
-
-                card.innerHTML = `
-                <div class="info">
-                    <div class="promo-icon">🎄</div>
-                    <div class="name">${product.name}</div>
-                    <div class="price">${product.tarifs[0].price.toFixed(2)}€</div>
-                </div>
-            `;
+            card.className = 'product-card product-item-card';
+            card.dataset.productId = product.id;
+    
+            if (product.clickable === false) {
+                card.classList.add('unclickable');
             }
-            // 2. SI C'EST UN PRODUIT NORMAL
-            else {
-                card.className = 'product-card product-item-card';
-                card.dataset.productId = product.id;
-
-                if (product.clickable === false) {
-                    card.classList.add('unclickable');
-                }
-
-                let flagHTML = product.flag ? `<span class="product-flag">${product.flag}</span>` : '';
-
-                card.innerHTML = `
+    
+            let flagHTML = product.flag ? `<span class="product-flag">${product.flag}</span>` : '';
+    
+            card.innerHTML = `
                 <img src="${product.image}" alt="${product.name}">
                 <div class="info">
                     <div class="name">${product.name} ${flagHTML}</div>
@@ -817,12 +758,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     <div class="price">${product.tarifs[0].price.toFixed(2)}€</div>
                 </div>
             `;
-            }
-
             productListContainer.appendChild(card);
         });
     }
-
     // --- FONCTION MODIFIÉE POUR GÉRER LE CARROUSEL ---
     function renderProductPage(productId) {
         const product = getProductById(productId);
@@ -1076,8 +1014,11 @@ document.addEventListener('DOMContentLoaded', function () {
         const qualityFilter = document.getElementById('quality-filter');
         const farmFilter = document.getElementById('farm-filter');
 
-        const allNestedProducts = appData.flatMap(category => category.farms.flatMap(farm => farm.products));
-
+const allNestedProducts = appData.flatMap(category => {
+    const fromFarms = category.farms ? category.farms.flatMap(f => f.products) : [];
+    const fromDirect = category.products || [];
+    return [...fromFarms, ...fromDirect];
+});
         // --- MODIFICATION ---
         /*    const categoryQualities = appData.map(c => c.quality);
                 const productQualities = allNestedProducts.map(p => p.quality);
@@ -1327,18 +1268,23 @@ document.addEventListener('DOMContentLoaded', function () {
         // 1. Clic sur une carte CATÉGORIE
         const categoryCard = target.closest('.category-card');
         if (categoryCard) {
-            // AVANT C'ÉTAIT : currentView = 'products'; 
-            // MODIFIE PAR :
-            currentView = 'farms'; // <--- On veut voir les sous-catégories (Farms) d'abord
-
-            currentCategoryId = categoryCard.dataset.categoryId;
-            // On reset les filtres
+            const categoryId = categoryCard.dataset.categoryId;
+            const category = appData.find(c => c.id === categoryId);
+        
+            currentCategoryId = categoryId;
+            
+            // SI LA CATÉGORIE A DES PRODUITS DIRECTS (WEED)
+            if (category.products) {
+                currentView = 'products';
+            } else {
+                currentView = 'farms'; // POUR HASH (QUI A DES SOUS-CATÉGORIES)
+            }
+            
             currentFilters.searchTerm = '';
             document.getElementById('search-filter').value = '';
             renderHomePage();
             return;
         }
-
 
 
         // Gère l'accordéon sur la page contact
