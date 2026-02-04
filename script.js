@@ -31,15 +31,15 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 'insta-main',
             className: 'insta-main', // Référence le CSS Sunset
             text: "PAGE INSTAGRAM 📸"
-        }/* ,,
+        }, 
         {
-            name: 'CANAL LUFFA 🟣',
-            url: '',
-            icon: '#icon-signal', // J'utilise l'icone signal car Luffa n'a pas d'icone dédiée
-            id: 'luffa-main',
-            className: 'luffa-main', // Référence le CSS Violet
-            text: "CANAL LUFFA 🟣"
-        },
+            name: 'SNAPCHAT 👻',
+            url: 'https://snapchat.com/t/M9TLDs9L',
+            icon: '#icon-snapchat', // J'utilise l'icone signal car Luffa n'a pas d'icone dédiée
+            id: 'snap-main',
+            className: 'snap-main', // Référence le CSS Violet
+            text: "SNAPCHAT 👻"
+        }/*,
         {
             name: 'TELEGRAM DE SECOURS 🛟',
             url: '',
@@ -125,9 +125,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrozen2.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Mélange de note de fruits exotiques avec un goût savoureux et d’une détente assurée',
                             tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '20g', price: 200.00 },
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 140.00 },
+                                { weight: '20g', price: 220.00 },
                                 { weight: '50g', price: 450.00 },
                                 { weight: '100g', price: 800.00 },
                             ]
@@ -143,9 +143,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrozen1.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Goût fruitée suivi d’une odeur boisée et d’une défonce assurer',
                             tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '20g', price: 200.00 },
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 140.00 },
+                                { weight: '20g', price: 220.00 },
                                 { weight: '50g', price: 450.00 },
                                 { weight: '100g', price: 800.00 },
                             ]
@@ -161,9 +161,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrozen3.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Odeur d’agrumes prononcé suivie d’un goût oranger et d’une défonce assurer',
                             tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '20g', price: 200.00 },
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 140.00 },
+                                { weight: '20g', price: 220.00 },
                                 { weight: '50g', price: 450.00 },
                                 { weight: '100g', price: 800.00 },
                             ]
