@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const contactLinks = [
         {
             name: 'TELEGRAM PRINCIPAL 🥇',
-            url: 'https://t.me/+OxAZxwtDm9FlMTI0',
+            url: 'https://t.me/+k4OTSjxCjyNjOWNk',
             icon: '#icon-telegram',
             id: 'telegram-main',
             className: 'telegram-main', // Référence le CSS Bleu
