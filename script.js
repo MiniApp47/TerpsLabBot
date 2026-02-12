@@ -64,6 +64,33 @@ document.addEventListener('DOMContentLoaded', function () {
             // La catégorie contient maintenant des "farms"
             farms: [
                 {
+                    id: 'The Gaz SÉLECTION🇲🇦',
+                    name: 'The Gaz SÉLECTION 🇲🇦',
+                    image: '', // Mets une image de farm si tu veux
+                    badgeText: '5 produits',
+                    products: [
+                        {
+                            id: '90u SourDiesel ⛽️',
+                            //  flag: '🇺🇸',
+                            name: '90u SourDiesel ⛽️',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'thegaz',
+                            image: 'ProductSour.png',
+                            video: 'VideoSour.mp4',
+                            description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nLa légende du gaz débarque ! ⛽️\n\nUn Sour Diesel d\'exception sélectionné par nos soins. Texture sableuse parfaite et odeur de carburant ultra-prononcée. 🧪💨\n\n🧠 Effet : Montée cérébrale puissante.\n👅 Goût : Citron acide et Gaz authentique.',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 70.00 },
+                                { weight: '20g', price: 120.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 400.00 },
+                            ]
+                        }
+
+                    ]
+                },
+                {
                     id: '🔮 Plasma Static 🔮',
                     name: '🔮 Plasma Static 🔮',
                     image: '', // Mets une image de farm si tu veux
