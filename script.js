@@ -70,6 +70,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '5 produits',
                     products: [
                         {
+                            id: '120u PARMESAN COOKIES 🍪',
+                            //  flag: '🇺🇸',
+                            name: '120u PARMESAN COOKIES 🍪',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'thegaz',
+                            image: 'ProductCook.jpg',
+                            video: 'VideoCook.mp4',
+                            description: '🥧 DRY-SIFT 120u PREMIUM 🥧',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 480.00 },
+                            ]
+                        },
+                        {
+                            id: '120u HAWAIAN RAIN🥥',
+                            //  flag: '🇺🇸',
+                            name: '120u HAWAIAN RAIN🥥',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'thegaz',
+                            image: 'ProductRain.jpg',
+                            video: 'VideoRain.mp4',
+                            description: '🥧 DRY-SIFT 120u PREMIUM 🥧',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 480.00 },
+                            ]
+                        },
+                        {
                             id: '90u MANDARINA 🍊',
                             //  flag: '🇺🇸',
                             name: '90u MANDARINA 🍊',
