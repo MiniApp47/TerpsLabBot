@@ -70,6 +70,60 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '5 produits',
                     products: [
                         {
+                            id: '90u MANDARINA 🍊',
+                            //  flag: '🇺🇸',
+                            name: '90u MANDARINA 🍊',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'thegaz',
+                            image: 'ProductMand.jpg',
+                            video: 'VideoMand.mp4',
+                            description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nUne explosion d\'agrumes ! 🍊💨\n\nCe 90u Mandarina se distingue par son arôme de clémentine fraîche et sa texture mousseuse ultra-propre. Un régal pour les amateurs de terps fruités.\n\n🧠 Effet : Énergisant et créatif au début, puis relaxation douce.\n👅 Goût : Mandarine sucrée et zeste d\'orange.',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 70.00 },
+                                { weight: '20g', price: 120.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 400.00 },
+                            ]
+                        },
+                        {
+                            id: '90u PAPAYA 🥭',
+                            //  flag: '🇺🇸',
+                            name: '990u PAPAYA 🥭',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'thegaz',
+                            image: 'ProductPapaya.jpg',
+                            video: 'VideoPapaya.mp4',
+                            description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nLe Roi du Tropique ! 🥭 tropical\n\nTexture grasse et collante, typique d\'une extraction de qualité. Une odeur de mangue mûre et de papaye qui envahit la pièce dès l\'ouverture. 🏝️🔥\n\n🧠 Effet : Puissant, apaisant, idéal pour déconnecter.\n👅 Goût : Fruits tropicaux exotiques et note crémeuse.',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 70.00 },
+                                { weight: '20g', price: 120.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 400.00 },
+                            ]
+                        },
+                        {
+                            id: '90u GOLDEN CHERRY 🍒',
+                            //  flag: '🇺🇸',
+                            name: '90u GOLDEN CHERRY 🍒',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'thegaz',
+                            image: 'ProductCherry.jpg',
+                            video: 'VideoCherry.mp4',
+                            description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nLa Cerise sur le gâteau ! 🍒✨\n\nUn profil "Golden" rare avec des reflets ambrés. Le mariage parfait entre le sucre de la cerise et la puissance du Dry-Sift haut de gamme. 🍭🌬️\n\n🧠 Effet : Équilibré, parfait pour une consommation tout au long de la journée.\n👅 Goût : Cerise griotte et bonbon acidulé.',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 70.00 },
+                                { weight: '20g', price: 120.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 400.00 },
+                            ]
+                        },
+                        {
                             id: '90u SourDiesel ⛽️',
                             //  flag: '🇺🇸',
                             name: '90u SourDiesel ⛽️',
