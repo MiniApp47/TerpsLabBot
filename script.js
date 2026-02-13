@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: '90u PAPAYA 🥭',
                             //  flag: '🇺🇸',
-                            name: '990u PAPAYA 🥭',
+                            name: '90u PAPAYA 🥭',
                             farm: 'The Gaz SÉLECTION 🇲🇦',
                             promoEligible: true,
                             type: 'thegaz',
