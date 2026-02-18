@@ -179,8 +179,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
                 {
-                    id: '🔮 Plasma Static 🔮',
-                    name: '🔮 Plasma Static 🔮',
+                    id: 'FULLMELT FARM',
+                    name: '👨‍🌾 FULLMELT FARM 👨‍🌾',
                     image: '', // Mets une image de farm si tu veux
                     badgeText: '5 produits',
                     products: [
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: 'ORANGE BLOOD 🤯',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
-                            type: 'Plasma',
+                            type: '🔮 Plasma Static 🔮',
                             image: 'ProductPlasma1.jpg',
                             video: 'VideoPlasma1.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\n Odeur fruité suivi d’un goût orangé et d’une défonce assurer 🍊 ',
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: 'FF X SD 🍇',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
-                            type: 'Plasma',
+                            type: '🔮 Plasma Static 🔮',
                             image: 'ProductPlasma2.jpg',
                             video: 'VideoPlasma2.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Saveur framboiser suivie d’une odeur fruité et d’une défonce incroyable',
@@ -219,23 +219,20 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 600.00 },
                                 { weight: '100g', price: 1100.00 },
                             ]
-                        }
+                        },
 
-                    ]
-                },
-                {
-                    id: '💎 Fresh Frozen 💎',
-                    name: '💎 Fresh Frozen 💎',
-                    image: '', // Mets une image de farm si tu veux
-                    badgeText: '5 produits',
-                    products: [
+
+
+
+
+
                         {
                             id: 'ZOHWA 🍍',
                             //  flag: '🇺🇸',
                             name: 'ZOHWA 🍍',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
-                            type: 'Plasma',
+                            type: '💎 Fresh Frozen 💎',
                             image: 'ProductFrozen2.jpg',
                             video: 'VideoFrozen2.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Mélange de note de fruits exotiques avec un goût savoureux et d’une détente assurée',
@@ -253,7 +250,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: 'PAPAYA 🥭',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
-                            type: 'Plasma',
+                            type: '💎 Fresh Frozen 💎',
                             image: 'ProductFrozen1.jpg',
                             video: 'VideoFrozen1.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Goût fruitée suivi d’une odeur boisée et d’une défonce assurer',
@@ -271,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: 'ORANGE GROOVIE 🍊',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
-                            type: 'Plasma',
+                            type: '💎 Fresh Frozen 💎',
                             image: 'ProductFrozen3.jpg',
                             video: 'VideoFrozen3.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Odeur d’agrumes prononcé suivie d’un goût oranger et d’une défonce assurer',
@@ -283,6 +280,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 800.00 },
                             ]
                         }
+
                     ]
                 }
             ]
@@ -798,18 +796,15 @@ function getProductById(productId) {
         }
     
         // --- 1. NETTOYAGE DES BOUTONS PRÉCÉDENTS ---
-        // Supprime tous les boutons de retour existants dans le conteneur de filtres
         const oldBackButtons = filterContainer.querySelectorAll('.back-to-categories-btn, .back-to-farms-btn');
         oldBackButtons.forEach(btn => btn.remove());
     
         let allProducts = [];
     
         // --- 2. RÉCUPÉRATION DES PRODUITS ---
-        // Cas A : Produits en direct (comme ta nouvelle structure WEED)
         if (category.products) {
             allProducts = category.products;
         } 
-        // Cas B : Produits via sous-catégories (comme HASH)
         else if (category.farms) {
             if (currentFarmId) {
                 const selectedFarm = category.farms.find(f => f.id === currentFarmId);
@@ -821,28 +816,14 @@ function getProductById(productId) {
     
         // --- 3. CRÉATION DU BOUTON RETOUR UNIQUE ---
         const backButton = document.createElement('button');
-        // On utilise une classe cohérente pour le CSS
         backButton.className = 'back-to-categories-btn';
         backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
-        
-        // Application du style visuel
-        backButton.style.cssText = `
-            background: linear-gradient(180deg, black, transparent); 
-            border-bottom: 2px solid #f78900; 
-            border-top: none; border-left: none; border-right: none;
-            color: white; padding: 10px 15px; 
-            border-radius: 10px; font-size: 1.1rem; 
-            font-weight: 700; cursor: pointer; 
-            display: flex; align-items: center; 
-            gap: 10px; width: 100%; box-sizing: border-box; 
-            margin-top: 3vh; font-family: Copperplate;
-        `;
-    
+        backButton.style.cssText = `background: linear-gradient(180deg, black, transparent); border-bottom: 2px solid #f78900; border-top: none; border-left: none; border-right: none; color: white; padding: 10px 15px; border-radius: 10px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin-top: 3vh; font-family: Copperplate;`;
         filterContainer.prepend(backButton);
     
-        // --- 4. FILTRAGE ET AFFICHAGE DES PRODUITS ---
+        // --- 4. FILTRAGE ET AFFICHAGE ---
         if (!allProducts || allProducts.length === 0) {
-            productListContainer.innerHTML = '<p class="no-results">Aucun produit trouvé dans cette section.</p>';
+            productListContainer.innerHTML = '<p class="no-results">Aucun produit trouvé.</p>';
             return;
         }
     
@@ -853,18 +834,24 @@ function getProductById(productId) {
         });
     
         productListContainer.innerHTML = '';
+        let lastType = ''; 
     
         filteredProducts.forEach(product => {
+            // --- SEPARATION UNIQUEMENT POUR FULLMELT FARM ---
+            if (currentFarmId === 'FULLMELT FARM' && product.type !== lastType) {
+                const separator = document.createElement('div');
+                separator.className = 'product-separator';
+                separator.innerHTML = `<span>${product.type}</span>`;
+                separator.style.cssText = `grid-column: 1 / -1; text-align: center; padding: 20px 0 10px 0; color: #f78900; font-family: 'Impact', sans-serif; font-size: 1.4rem; text-transform: uppercase; border-bottom: 1px solid rgba(247, 137, 0, 0.3); margin-bottom: 10px; width: 100%;`;
+                productListContainer.appendChild(separator);
+                lastType = product.type;
+            }
+    
             const card = document.createElement('div');
             card.className = 'product-card product-item-card';
             card.dataset.productId = product.id;
-    
-            if (product.clickable === false) {
-                card.classList.add('unclickable');
-            }
-    
+            
             let flagHTML = product.flag ? `<span class="product-flag">${product.flag}</span>` : '';
-    
             card.innerHTML = `
                 <img src="${product.image}" alt="${product.name}">
                 <div class="info">
@@ -876,6 +863,7 @@ function getProductById(productId) {
             productListContainer.appendChild(card);
         });
     }
+
     // --- FONCTION MODIFIÉE POUR GÉRER LE CARROUSEL ---
     function renderProductPage(productId) {
         const product = getProductById(productId);
