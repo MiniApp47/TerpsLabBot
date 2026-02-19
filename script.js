@@ -185,6 +185,58 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '5 produits',
                     products: [
                         {
+                            id: 'BERRY CAKE 🎂🫐',
+                            //  flag: '🇺🇸',
+                            name: 'BERRY CAKE 🎂🫐',
+                            farm: 'FULLMELTFARM 🍶',
+                            promoEligible: true,
+                            type: '90u 🍓',
+                            image: 'ProductBc.jpg',
+                            video: 'VideoBc.mov',
+                            description: '',
+                            tarifs: [
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 400.00 },
+                                { weight: '200g', price: 760.00 },
+                            ]
+                        },
+                        {
+                            id: 'COBRA CHI 🐍',
+                            //  flag: '🇺🇸',
+                            name: 'COBRA CHI 🐍',
+                            farm: 'FULLMELTFARM 🍶',
+                            promoEligible: true,
+                            type: '90u 🍓',
+                            image: 'ProductChi.jpg',
+                            video: 'VideoChi.mov',
+                            description: '',
+                            tarifs: [
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 400.00 },
+                                { weight: '200g', price: 760.00 },
+                            ]
+                        },
+                        {
+                            id: 'TANGERINE CITRUS 🍋',
+                            //  flag: '🇺🇸',
+                            name: 'TANGERINE CITRUS 🍋',
+                            farm: 'FULLMELTFARM 🍶',
+                            promoEligible: true,
+                            type: '90u 🍓',
+                            image: 'ProductCitrus.jpg',
+                            video: 'VideoCitrus.mov',
+                            description: '',
+                            tarifs: [
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 400.00 },
+                                { weight: '200g', price: 760.00 },
+                            ]
+                        },
+
+                        {
                             id: 'ORANGE BLOOD 🤯',
                             //  flag: '🇺🇸',
                             name: 'ORANGE BLOOD 🤯',
@@ -220,11 +272,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 1100.00 },
                             ]
                         },
-
-
-
-
-
 
                         {
                             id: 'ZOHWA 🍍',
