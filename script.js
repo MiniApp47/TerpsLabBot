@@ -351,11 +351,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoGush.mp4',
                     description: 'Le mariage de la Papaye et de la Cerise Gelato. Très fruité. \n\n 🍒 LA FOLIE 🤪 ‼️ Goût intense et buds magnifiques.',
                     tarifs: [
-                        { weight: '5g', price: 70.00 },
-                        { weight: '10g', price: 120.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 420.00 },
-                        { weight: '100g', price: 800.00 },
+                        { weight: '10g', price: 80.00 },
+                        { weight: '25g', price: 180.00 },
+                        { weight: '50g', price: 350.00 },
+                        { weight: '100g', price: 600.00 },
                     ]
                 }   
             ]
