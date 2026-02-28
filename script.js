@@ -237,41 +237,23 @@ document.addEventListener('DOMContentLoaded', function () {
                         },
 
                         {
-                            id: 'ORANGE BLOOD 🤯',
+                            id: 'OLIVE 🧬',
                             //  flag: '🇺🇸',
-                            name: 'ORANGE BLOOD 🤯',
+                            name: 'OLIVE 🧬',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
                             type: '🔮 Plasma Static 🔮',
-                            image: 'ProductPlasma1.jpg',
-                            video: 'VideoPlasma1.mov',
-                            description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\n Odeur fruité suivi d’un goût orangé et d’une défonce assurer 🍊 ',
+                            image: 'ProductOlive.png',
+                            video: 'VideoOlive.mov',
+                            description: '🎨 STRAIN DISPO 🎨\n\n FORBIDEN FRUIT 🍇 \n RAIMBOW BELTS 🦠 \n BANANA SKITLEZ 🍌',
                             tarifs: [
-                                { weight: '5g', price: 90.00 },
-                                { weight: '10g', price: 170.00 },
-                                { weight: '20g', price: 300.00 },
-                                { weight: '50g', price: 600.00 },
-                                { weight: '100g', price: 1100.00 },
+                                { weight: '10g', price: 200.00 },
+                                { weight: '20g', price: 380.00 },
+                                { weight: '50g', price: 700.00 },
+                                { weight: '100g', price: 1300.00 },
                             ]
                         },
-                        {
-                            id: 'FF X SD 🍇',
-                            //  flag: '🇺🇸',
-                            name: 'FF X SD 🍇',
-                            farm: 'FULLMELTFARM 🍶',
-                            promoEligible: true,
-                            type: '🔮 Plasma Static 🔮',
-                            image: 'ProductPlasma2.jpg',
-                            video: 'VideoPlasma2.mov',
-                            description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Saveur framboiser suivie d’une odeur fruité et d’une défonce incroyable',
-                            tarifs: [
-                                { weight: '5g', price: 90.00 },
-                                { weight: '10g', price: 170.00 },
-                                { weight: '20g', price: 300.00 },
-                                { weight: '50g', price: 600.00 },
-                                { weight: '100g', price: 1100.00 },
-                            ]
-                        },
+
 
                         {
                             id: 'ZOHWA 🍍',
