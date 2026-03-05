@@ -247,10 +247,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoOlive.mov',
                             description: '🎨 STRAIN DISPO 🎨\n\n FORBIDEN FRUIT 🍇 \n RAIMBOW BELTS 🦠 \n BANANA SKITLEZ 🍌',
                             tarifs: [
-                                { weight: '10g', price: 200.00 },
-                                { weight: '20g', price: 380.00 },
-                                { weight: '50g', price: 700.00 },
-                                { weight: '100g', price: 1300.00 },
+                                { weight: '5g', price: 100.00 },
+                                { weight: '10g', price: 180.00 },
+                                { weight: '20g', price: 350.00 },
+                                { weight: '50g', price: 650.00 },
+                                { weight: '100g', price: 1250.00 },
                             ]
                         },
 
