@@ -257,15 +257,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
                         {
-                            id: 'ZOHWA 🍍',
+                            id: 'GRAPE GAZ 🍇',
                             //  flag: '🇺🇸',
-                            name: 'ZOHWA 🍍',
+                            name: 'GRAPE GAZ 🍇',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
                             type: '💎 Fresh Frozen 💎',
                             image: 'ProductFrozen2.jpg',
                             video: 'VideoFrozen2.mov',
-                            description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Mélange de note de fruits exotiques avec un goût savoureux et d’une détente assurée',
+                            description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ ',
                             tarifs: [
                                 { weight: '5g', price: 80.00 },
                                 { weight: '10g', price: 140.00 },
@@ -275,15 +275,15 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
                         {
-                            id: 'PAPAYA 🥭',
+                            id: 'FRUIT JOY 🥭',
                             //  flag: '🇺🇸',
-                            name: 'PAPAYA 🥭',
+                            name: 'FRUIT JOY 🥭',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
                             type: '💎 Fresh Frozen 💎',
                             image: 'ProductFrozen1.jpg',
                             video: 'VideoFrozen1.mov',
-                            description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Goût fruitée suivi d’une odeur boisée et d’une défonce assurer',
+                            description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️',
                             tarifs: [
                                 { weight: '5g', price: 80.00 },
                                 { weight: '10g', price: 140.00 },
@@ -293,15 +293,15 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
                         {
-                            id: 'ORANGE GROOVIE 🍊',
+                            id: 'GARLIC COOKIES 🍪',
                             //  flag: '🇺🇸',
-                            name: 'ORANGE GROOVIE 🍊',
+                            name: 'GARLIC COOKIES 🍪',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
                             type: '💎 Fresh Frozen 💎',
                             image: 'ProductFrozen3.jpg',
                             video: 'VideoFrozen3.mov',
-                            description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n Odeur d’agrumes prononcé suivie d’un goût oranger et d’une défonce assurer',
+                            description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️',
                             tarifs: [
                                 { weight: '5g', price: 80.00 },
                                 { weight: '10g', price: 140.00 },
