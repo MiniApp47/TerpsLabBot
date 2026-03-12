@@ -52,6 +52,90 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- DONNÉES DE L'APPLICATION (NOUVELLE STRUCTURE) ---
     const appData = [
+
+        {
+            id: 'PACK PROMO🎁',
+            name: 'PACK PROMO🎁',
+            farm: '',
+            type: 'PACK PROMO🎁',
+            quality: 'PACK PROMO🎁',
+            image: 'CategPromo.png',
+
+            farms: [
+                {
+                    id: 'Pack Eco 🥉',
+                    name: 'Pack Eco 🥉',
+                    image: '',
+                    badgeText: '0 produits',
+                    clickable: true,
+                    products: [
+
+                        {
+                            id: 'PromoBronze',
+                            name: '🎁 25G 90u + 10G Frozen + 10G Cali 🎁',
+                            farm: 'TheLabSelection 🐪',
+                            promoEligible: true,
+                            type: 'Promo', // Important pour le CSS
+                            image: '', // Pas besoin d'image
+                            video: '',
+                            description: '',
+                            clickable: true, // On met à TRUE pour que le curseur change
+                            tarifs: [
+                                { weight: 'Pack', price: 260.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'PACK PREMIUM 🥈',
+                    name: 'PACK PREMIUM 🥈',
+                    image: '',
+                    badgeText: '0 produits',
+                    clickable: true,
+                    products: [
+
+                        {
+                            id: 'PromoArgente',
+                            name: '🎁 10G Frozen + 5G PlasmaStatic + 15G Cali  🎁',
+                            farm: 'TheLabSelection 🐪',
+                            promoEligible: true,
+                            type: 'Promo', // Important pour le CSS
+                            image: '', // Pas besoin d'image
+                            video: '',
+                            description: '',
+                            clickable: true, // On met à TRUE pour que le curseur change
+                            tarifs: [
+                                { weight: 'Pack', price: 240.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'PACK DE LUXE 🥇',
+                    name: 'PACK DE LUXE 🥇',
+                    image: '',
+                    badgeText: '0 produits',
+                    clickable: true,
+                    products: [
+
+                        {
+                            id: 'PromoArgPromoOrente',
+                            name: '🎁 -1 Olive (10g) PlasmaStatic + 10g Cali + PLEIN DE CADEAUX À VOUS OFFRIR  🎁',
+                            farm: 'TheLabSelection 🐪',
+                            promoEligible: true,
+                            type: 'Promo', // Important pour le CSS
+                            image: '', // Pas besoin d'image
+                            video: '',
+                            description: '',
+                            clickable: true, // On met à TRUE pour que le curseur change
+                            tarifs: [
+                                { weight: 'Pack', price: 210.00 },
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         // --- Catégorie 1: HASH ---
         {
             id: 'HASH',
@@ -195,10 +279,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoBc.mov',
                             description: '',
                             tarifs: [
-                                { weight: '25g', price: 120.00 },
-                                { weight: '50g', price: 220.00 },
-                                { weight: '100g', price: 400.00 },
-                                { weight: '200g', price: 760.00 },
+                                { weight: '25g', price: 110.00, oldPrice: 120.00 },
+                                { weight: '50g', price: 200.00, oldPrice: 220.00 },
+                                { weight: '100g', price: 370.00, oldPrice: 400.00 },
+                                { weight: '200g', price: 740.00, oldPrice: 760.00 },
                             ]
                         },
                         {
@@ -212,10 +296,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoChi.mov',
                             description: '',
                             tarifs: [
-                                { weight: '25g', price: 120.00 },
-                                { weight: '50g', price: 220.00 },
-                                { weight: '100g', price: 400.00 },
-                                { weight: '200g', price: 760.00 },
+                                { weight: '25g', price: 110.00, oldPrice: 120.00 },
+                                { weight: '50g', price: 200.00, oldPrice: 220.00 },
+                                { weight: '100g', price: 370.00, oldPrice: 400.00 },
+                                { weight: '200g', price: 740.00, oldPrice: 760.00 },
                             ]
                         },
                         {
@@ -229,10 +313,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoCitrus.mov',
                             description: '',
                             tarifs: [
-                                { weight: '25g', price: 120.00 },
-                                { weight: '50g', price: 220.00 },
-                                { weight: '100g', price: 400.00 },
-                                { weight: '200g', price: 760.00 },
+                                { weight: '25g', price: 110.00, oldPrice: 120.00 },
+                                { weight: '50g', price: 200.00, oldPrice: 220.00 },
+                                { weight: '100g', price: 370.00, oldPrice: 400.00 },
+                                { weight: '200g', price: 740.00, oldPrice: 760.00 },
                             ]
                         },
 
@@ -247,11 +331,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoOlive.mov',
                             description: '🎨 STRAIN DISPO 🎨\n\n FORBIDEN FRUIT 🍇 \n RAIMBOW BELTS 🦠 \n BANANA SKITLEZ 🍌',
                             tarifs: [
-                                { weight: '5g', price: 100.00 },
-                                { weight: '10g', price: 180.00 },
-                                { weight: '20g', price: 350.00 },
-                                { weight: '50g', price: 650.00 },
-                                { weight: '100g', price: 1250.00 },
+                                { weight: '5g', price: 90.00, oldPrice: 100.00 },
+                                { weight: '10g', price: 170.00, oldPrice: 180.00 },
+                                { weight: '20g', price: 300.00, oldPrice: 350.00 },
+                                { weight: '50g', price: 600.00, oldPrice: 650.00 },
+                                { weight: '100g', price: 1100.00, oldPrice: 1250.00 },
                             ]
                         },
 
@@ -267,11 +351,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrozen2.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ ',
                             tarifs: [
-                                { weight: '5g', price: 80.00 },
-                                { weight: '10g', price: 140.00 },
-                                { weight: '20g', price: 220.00 },
-                                { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 800.00 },
+                                { weight: '5g', price: 70.00, oldPrice: 80.00 },
+                                { weight: '10g', price: 120.00, oldPrice: 140.00 },
+                                { weight: '20g', price: 200.00, oldPrice: 220.00 },
+                                { weight: '50g', price: 400.00, oldPrice: 450.00 },
+                                { weight: '100g', price: 750.00, oldPrice: 800.00 },
                             ]
                         },
                         {
@@ -285,11 +369,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrozen1.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️',
                             tarifs: [
-                                { weight: '5g', price: 80.00 },
-                                { weight: '10g', price: 140.00 },
-                                { weight: '20g', price: 220.00 },
-                                { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 800.00 },
+                                { weight: '5g', price: 70.00, oldPrice: 80.00 },
+                                { weight: '10g', price: 120.00, oldPrice: 140.00 },
+                                { weight: '20g', price: 200.00, oldPrice: 220.00 },
+                                { weight: '50g', price: 400.00, oldPrice: 450.00 },
+                                { weight: '100g', price: 750.00, oldPrice: 800.00 },
                             ]
                         },
                         {
@@ -303,11 +387,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrozen3.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️',
                             tarifs: [
-                                { weight: '5g', price: 80.00 },
-                                { weight: '10g', price: 140.00 },
-                                { weight: '20g', price: 220.00 },
-                                { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 800.00 },
+                                { weight: '5g', price: 70.00, oldPrice: 80.00 },
+                                { weight: '10g', price: 120.00, oldPrice: 140.00 },
+                                { weight: '20g', price: 200.00, oldPrice: 220.00 },
+                                { weight: '50g', price: 400.00, oldPrice: 450.00 },
+                                { weight: '100g', price: 750.00, oldPrice: 800.00 },
                             ]
                         }
 
@@ -334,10 +418,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoGush.mp4',
                     description: 'Le mariage de la Papaye et de la Cerise Gelato. Très fruité. \n\n 🍒 LA FOLIE 🤪 ‼️ Goût intense et buds magnifiques.',
                     tarifs: [
-                        { weight: '10g', price: 80.00 },
-                        { weight: '25g', price: 180.00 },
-                        { weight: '50g', price: 350.00 },
-                        { weight: '100g', price: 600.00 },
+                        { weight: '10g', price: 60.00, oldPrice: 80.00 },
+                        { weight: '25g', price: 150.00, oldPrice: 180.00 },
+                        { weight: '50g', price: 290.00, oldPrice: 350.00 },
+                        { weight: '100g', price: 550.00, oldPrice: 600.00 },
                     ]
                 }   
             ]
@@ -417,116 +501,11 @@ document.addEventListener('DOMContentLoaded', function () {
                      }
              ]
          }, 
-
+*/
         // PACK NOEL 
 
 
-        {
-            id: 'PACKDENOEL',
-            name: '🎅🏽 PACKDENOEL 🎅🏽',
-            farm: '',
-            type: 'PACKDENOEL',
-            quality: '🎅🏽 PACKDENOEL 🎅🏽',
-            image: 'CategNoel.jpg',
-
-            farms: [
-                {
-                    id: 'PACKBRONZE',
-                    name: '🥉 PACK BRONZE 🥉',
-                    image: 'CategHash.png',
-                    badgeText: '0 produits',
-                    clickable: true,
-                    products: [
-
-                        {
-                            id: 'PromoBronze',
-                            name: '🎁 10G DE 120u / 10G D’AMNESIA HAZE 🎁',
-                            farm: '🎄 Spécial Noël',
-                            promoEligible: true,
-                            type: 'Promo', // Important pour le CSS
-                            image: '', // Pas besoin d'image
-                            video: '',
-                            description: '',
-                            clickable: true, // On met à TRUE pour que le curseur change
-                            tarifs: [
-                                { weight: 'Pack', price: 120.00 },
-                            ]
-                        }
-                    ]
-                },
-                {
-                    id: 'PACK ARGENTÉ',
-                    name: '🥈 PACK ARGENTÉ 🥈',
-                    image: 'CategHash.png',
-                    badgeText: '0 produits',
-                    clickable: true,
-                    products: [
-
-                        {
-                            id: 'PromoArgente',
-                            name: '🎁 10G DE 90u/ 5G DE DOUBLE STATIC/ 10G D’AMNESIA HAZE 🎁',
-                            farm: '🎄 Spécial Noël',
-                            promoEligible: true,
-                            type: 'Promo', // Important pour le CSS
-                            image: '', // Pas besoin d'image
-                            video: '',
-                            description: '',
-                            clickable: true, // On met à TRUE pour que le curseur change
-                            tarifs: [
-                                { weight: 'Pack', price: 180.00 },
-                            ]
-                        }
-                    ]
-                },
-                {
-                    id: 'PACK OR',
-                    name: '🥇 PACK OR 🥇',
-                    image: 'CategHash.png',
-                    badgeText: '0 produits',
-                    clickable: true,
-                    products: [
-
-                        {
-                            id: 'PromoArgPromoOrente',
-                            name: '🎁 10G DE FROZEN/ 3.5G DE PARLAY/ 10G DE DOUBLE STATIC  🎁',
-                            farm: '🎄 Spécial Noël',
-                            promoEligible: true,
-                            type: 'Promo', // Important pour le CSS
-                            image: '', // Pas besoin d'image
-                            video: '',
-                            description: '',
-                            clickable: true, // On met à TRUE pour que le curseur change
-                            tarifs: [
-                                { weight: 'Pack', price: 280.00 },
-                            ]
-                        }
-                    ]
-                },
-                {
-                    id: 'PACK DIAMANT',
-                    name: '💎 PACK DIAMANT 💎',
-                    image: 'CategHash.png',
-                    badgeText: '0 produits',
-                    clickable: true,
-                    products: [
-                        {
-                            id: 'PromoDiamant',
-                            name: '🎁 10G DE DOUBLE STATIC/ 25 DE FROZEN/ 7G DE PARLAY/ 1 SERINGUE WAX  🎁',
-                            farm: '🎄 Spécial Noël',
-                            promoEligible: true,
-                            type: 'Promo', // Important pour le CSS
-                            image: '', // Pas besoin d'image
-                            video: '',
-                            description: '',
-                            clickable: true, // On met à TRUE pour que le curseur change
-                            tarifs: [
-                                { weight: 'Pack', price: 450.00 },
-                            ]
-                        }
-                    ]
-                }
-            ]
-        } */
+       
     ];
 
     // --- VARIABLES D'ÉTAT ---
@@ -866,29 +845,32 @@ function getProductById(productId) {
         let lastType = ''; 
     
         filteredProducts.forEach(product => {
-            // --- SEPARATION UNIQUEMENT POUR FULLMELT FARM ---
-            if (currentFarmId === 'FULLMELT FARM' && product.type !== lastType) {
-                const separator = document.createElement('div');
-                separator.className = 'product-separator';
-                separator.innerHTML = `<span>${product.type}</span>`;
-                separator.style.cssText = `grid-column: 1 / -1; text-align: center; padding: 20px 0 10px 0; color: #f78900; font-family: 'Impact', sans-serif; font-size: 1.4rem; text-transform: uppercase; border-bottom: 1px solid rgba(247, 137, 0, 0.3); margin-bottom: 10px; width: 100%;`;
-                productListContainer.appendChild(separator);
-                lastType = product.type;
-            }
-    
             const card = document.createElement('div');
-            card.className = 'product-card product-item-card';
             card.dataset.productId = product.id;
-            
-            let flagHTML = product.flag ? `<span class="product-flag">${product.flag}</span>` : '';
-            card.innerHTML = `
-                <img src="${product.image}" alt="${product.name}">
-                <div class="info">
-                    <div class="name">${product.name} ${flagHTML}</div>
-                    <div class="farm">${product.farm}</div>
-                    <div class="price">${product.tarifs[0].price.toFixed(2)}€</div>
-                </div>
-            `;
+        
+            // SI C'EST UN PACK PROMO : Design spécial sans image
+            if (product.type === 'Promo') {
+                card.className = 'product-card product-item-card promo-card';
+                card.innerHTML = `
+                    <div class="info">
+                        <div class="name">${product.name}</div>
+                        <div class="farm">${product.farm}</div>
+                        <div class="price">${product.tarifs[0].price.toFixed(2)}€</div>
+                    </div>
+                `;
+            } else {
+                // DESIGN NORMAL : Pour les autres produits avec image
+                card.className = 'product-card product-item-card';
+                let flagHTML = product.flag ? `<span class="product-flag">${product.flag}</span>` : '';
+                card.innerHTML = `
+                    <img src="${product.image}" alt="${product.name}">
+                    <div class="info">
+                        <div class="name">${product.name} ${flagHTML}</div>
+                        <div class="farm">${product.farm}</div>
+                        <div class="price">${product.tarifs[0].price.toFixed(2)}€</div>
+                    </div>
+                `;
+            }
             productListContainer.appendChild(card);
         });
     }
@@ -937,18 +919,27 @@ function getProductById(productId) {
         // (On garde ta logique pour le petit texte)
         const weightStyle = product.useSmallText ? 'font-size: 12px; line-height: 1.2;' : '';
 
-        let tarifsHTML = product.tarifs.map(tarif => `
-    <div class="tarif-item">
-        <div class="box-tarif">
-            <div class="tarif-wieght" style="${weightStyle}">${tarif.weight}</div>
-            <div class="tarif-price">${tarif.price.toFixed(2)}€</div>
-        </div>
-        <button class="add-to-cart-btn" data-product-id="${product.id}" data-weight="${tarif.weight}" data-price="${tarif.price}">
-            <svg width="20" height="20"><use href="#icon-cart"/></svg>
-        </button>
-    </div>
-    `).join('');
-
+        let tarifsHTML = product.tarifs.map(tarif => {
+            // Si un ancien prix existe, on crée le HTML pour l'afficher barré
+            const oldPriceHTML = tarif.oldPrice 
+                ? `<span style="text-decoration: line-through; color: #ff3b30; font-size: 0.8em; margin-bottom: 5px; display: block;">${tarif.oldPrice.toFixed(2)}€</span>` 
+                : '';
+        
+            return `
+            <div class="tarif-item">
+                <div class="box-tarif">
+                    <div class="tarif-wieght" style="${weightStyle}">${tarif.weight}</div>
+                    <div class="tarif-price">
+                        ${oldPriceHTML}
+                        <span style="font-size: 1.2em; color: #ffffff; font-weight: bold;">${tarif.price.toFixed(2)}€</span>
+                    </div>
+                </div>
+                <button class="add-to-cart-btn" data-product-id="${product.id}" data-weight="${tarif.weight}" data-price="${tarif.price}">
+                    <svg width="20" height="20"><use href="#icon-cart"/></svg>
+                </button>
+            </div>
+            `;
+        }).join('');
         let descriptionHTML = '';
         if (product.description) {
             descriptionHTML = `<div class="product-description">${product.description}</div>`;
@@ -1478,14 +1469,19 @@ const allNestedProducts = appData.flatMap(category => {
 
         // 3. Clic sur une carte PRODUIT
         const productCard = target.closest('.product-item-card');
-        if (productCard) {
+if (productCard) {
+    const productId = productCard.dataset.productId;
+    const product = getProductById(productId);
 
-            if (productCard.classList.contains('unclickable')) {
-                return;
-            }
-            renderProductPage(productCard.dataset.productId);
-            return;
-        }
+    // Si c'est un pack, on ne fait rien (juste l'affichage)
+    if (product.type === 'Promo') {
+        return; 
+    }
+    
+    // Sinon, on ouvre la page normalement
+    renderProductPage(productId);
+    return;
+}
 
         // 4. NOUVEAU : Clic sur le bouton "Retour" (vers Catégories)
         if (target.closest('.back-to-categories-btn')) {
