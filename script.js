@@ -922,7 +922,7 @@ function getProductById(productId) {
         let tarifsHTML = product.tarifs.map(tarif => {
             // Si un ancien prix existe, on crée le HTML pour l'afficher barré
             const oldPriceHTML = tarif.oldPrice 
-                ? `<span style="text-decoration: line-through; color: #ff3b30; font-size: 0.8em; margin-bottom: 5px; display: block;">${tarif.oldPrice.toFixed(2)}€</span>` 
+                ? `<span style="text-decoration: line-through; color: #ff3b30; font-size: 0.8em; margin-top: -25px; display: block;">${tarif.oldPrice.toFixed(2)}€</span>` 
                 : '';
         
             return `
