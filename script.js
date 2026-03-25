@@ -72,31 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                         {
                             id: 'PromoBronze',
-                            name: '🎁 25G 90u + 10G Frozen + 10G Cali 🎁',
-                            farm: 'TheLabSelection 🐪',
-                            promoEligible: true,
-                            type: 'Promo', // Important pour le CSS
-                            image: '', // Pas besoin d'image
-                            video: '',
-                            description: '',
-                            clickable: true, // On met à TRUE pour que le curseur change
-                            tarifs: [
-                                { weight: 'Pack', price: 260.00 },
-                            ]
-                        }
-                    ]
-                },
-                {
-                    id: 'PACK PREMIUM 🥈',
-                    name: 'PACK PREMIUM 🥈',
-                    image: '',
-                    badgeText: '0 produits',
-                    clickable: true,
-                    products: [
-
-                        {
-                            id: 'PromoArgente',
-                            name: '🎁 10G Frozen + 5G PlasmaStatic + 15G Cali  🎁',
+                            name: '🎁 25G 90u + 10G FreshFrozen + 10G Cali 🎁',
                             farm: 'TheLabSelection 🐪',
                             promoEligible: true,
                             type: 'Promo', // Important pour le CSS
@@ -111,6 +87,30 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
                 {
+                    id: 'PACK PREMIUM 🥈',
+                    name: 'PACK PREMIUM 🥈',
+                    image: '',
+                    badgeText: '0 produits',
+                    clickable: true,
+                    products: [
+
+                        {
+                            id: 'PromoArgente',
+                            name: '🎁 15G FreshFrozen + 15G PlasmaStatic + 15G Cali  🎁',
+                            farm: 'TheLabSelection 🐪',
+                            promoEligible: true,
+                            type: 'Promo', // Important pour le CSS
+                            image: '', // Pas besoin d'image
+                            video: '',
+                            description: '',
+                            clickable: true, // On met à TRUE pour que le curseur change
+                            tarifs: [
+                                { weight: 'Pack', price: 380.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
                     id: 'PACK DE LUXE 🥇',
                     name: 'PACK DE LUXE 🥇',
                     image: '',
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                         {
                             id: 'PromoArgPromoOrente',
-                            name: '🎁 -1 Olive (10g) PlasmaStatic + 10g Cali + PLEIN DE CADEAUX À VOUS OFFRIR  🎁',
+                            name: '🎁 25G FreshFrozen + 25G PlasmaStatic + 25G Cali 🎁',
                             farm: 'TheLabSelection 🐪',
                             promoEligible: true,
                             type: 'Promo', // Important pour le CSS
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: '',
                             clickable: true, // On met à TRUE pour que le curseur change
                             tarifs: [
-                                { weight: 'Pack', price: 210.00 },
+                                { weight: 'Pack', price: 600.00 },
                             ]
                         }
                     ]
@@ -321,21 +321,39 @@ document.addEventListener('DOMContentLoaded', function () {
                         },
 
                         {
-                            id: 'OLIVE 🧬',
+                            id: '🆕 PlasmaStatic⚡️',
                             //  flag: '🇺🇸',
-                            name: 'OLIVE 🧬',
+                            name: '🆕 PlasmaStatic ⚡️',
+                            farm: 'FULLMELTFARM 🍶',
+                            promoEligible: true,
+                            type: '🔮 Plasma Static 🔮',
+                            image: 'ProductOlive1.png',
+                            video: 'VideoOlive1.mov',
+                            description: '🎨 STRAIN DISPO 🎨\n\n -  BlueCookies 🍪🥶\n -  RainbowBelt 🍭\n -  WeedingCake x Banana 🍰🍌\n -  MandarinaSqueeze 🍊\n -  ForbiddenFruit x SourDiesel 🍎⛽️ \n\n ⚠️pas pour les amateurs de fume⛔️',
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 550.00 },
+                                { weight: '100g', price: 1000.00 },
+                                { weight: '200g', price: 1950.00 },
+                            ]
+                        },
+                        {
+                            id: '🆕 Cylindre Plasma',
+                            //  flag: '🇺🇸',
+                            name: '🆕 Cylindre Plasma ⚡️',
                             farm: 'FULLMELTFARM 🍶',
                             promoEligible: true,
                             type: '🔮 Plasma Static 🔮',
                             image: 'ProductOlive.png',
                             video: 'VideoOlive.mov',
-                            description: '🎨 STRAIN DISPO 🎨\n\n FORBIDEN FRUIT 🍇 \n RAIMBOW BELTS 🦠 \n BANANA SKITLEZ 🍌',
+                            description: '(Format Cylindre 50g) \n 🎨 STRAIN DISPO 🎨\n\n - TropCherry 🍒 \n - ForbiddenFruit x SourDiesel 🍎⛽️ \n - SuperBoof 🍊 \n\n ⚠️pas pour les amateurs de fume⛔️',
                             tarifs: [
-                                { weight: '5g', price: 90.00, oldPrice: 100.00 },
-                                { weight: '10g', price: 170.00, oldPrice: 180.00 },
-                                { weight: '20g', price: 300.00, oldPrice: 350.00 },
-                                { weight: '50g', price: 600.00, oldPrice: 650.00 },
-                                { weight: '100g', price: 1100.00, oldPrice: 1250.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 550.00 },
+                                { weight: '100g', price: 1000.00 },
+                                { weight: '200g', price: 1950.00 },
                             ]
                         },
 
@@ -351,11 +369,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrozen2.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ ',
                             tarifs: [
-                                { weight: '5g', price: 70.00, oldPrice: 80.00 },
-                                { weight: '10g', price: 120.00, oldPrice: 140.00 },
-                                { weight: '20g', price: 200.00, oldPrice: 220.00 },
-                                { weight: '50g', price: 400.00, oldPrice: 450.00 },
-                                { weight: '100g', price: 750.00, oldPrice: 800.00 },
+                                { weight: '10g', price: 90.00, oldPrice: 120.00 },
+                                { weight: '20g', price: 180.00, oldPrice: 200.00 },
+                                { weight: '50g', price: 330.00, oldPrice: 400.00 },
+                                { weight: '100g', price: 650.00, oldPrice: 750.00 },
+                                { weight: '200g', price: 1250.00 },
                             ]
                         },
                         {
@@ -369,11 +387,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrozen1.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️',
                             tarifs: [
-                                { weight: '5g', price: 70.00, oldPrice: 80.00 },
-                                { weight: '10g', price: 120.00, oldPrice: 140.00 },
-                                { weight: '20g', price: 200.00, oldPrice: 220.00 },
-                                { weight: '50g', price: 400.00, oldPrice: 450.00 },
-                                { weight: '100g', price: 750.00, oldPrice: 800.00 },
+                                { weight: '10g', price: 90.00, oldPrice: 120.00 },
+                                { weight: '20g', price: 180.00, oldPrice: 200.00 },
+                                { weight: '50g', price: 330.00, oldPrice: 400.00 },
+                                { weight: '100g', price: 650.00, oldPrice: 750.00 },
+                                { weight: '200g', price: 1250.00 },
                             ]
                         },
                         {
@@ -387,11 +405,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrozen3.mov',
                             description: 'PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️',
                             tarifs: [
-                                { weight: '5g', price: 70.00, oldPrice: 80.00 },
-                                { weight: '10g', price: 120.00, oldPrice: 140.00 },
-                                { weight: '20g', price: 200.00, oldPrice: 220.00 },
-                                { weight: '50g', price: 400.00, oldPrice: 450.00 },
-                                { weight: '100g', price: 750.00, oldPrice: 800.00 },
+                                { weight: '10g', price: 90.00, oldPrice: 120.00 },
+                                { weight: '20g', price: 180.00, oldPrice: 200.00 },
+                                { weight: '50g', price: 330.00, oldPrice: 400.00 },
+                                { weight: '100g', price: 650.00, oldPrice: 750.00 },
+                                { weight: '200g', price: 1250.00 },
                             ]
                         }
 
@@ -409,8 +427,24 @@ document.addEventListener('DOMContentLoaded', function () {
             // On supprime le tableau "farms" et on met "products" direct ici
             products: [
                 {
+                    id: 'SUNSET SHERBET 🍊',
+                    name: 'SUNSET SHERBET 🍊',
+                    farm: 'CALI NO BRAND ™️©️',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductSun.jpg',
+                    video: 'VideoSun.mov',
+                    description: 'CALI CANADA 🇨🇦  \n NEW DROP 2026/27✨',
+                    tarifs: [
+                        { weight: '10g', price: 70.00 },
+                        { weight: '25g', price: 150.00 },
+                        { weight: '50g', price: 280.00 },
+                        { weight: '100g', price: 550.00 },
+                    ]
+                },  
+                {
                     id: 'PAPAYA_CHERRY_GELATO',
-                    name: 'PAPAYA x CHERRY GELATO 🍒 🥭',
+                    name: 'Alien Gushers 👽',
                     farm: 'CALI NO BRAND ™️©️',
                     promoEligible: true,
                     type: 'Weed',
