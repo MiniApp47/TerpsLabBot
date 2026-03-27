@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             type: '🔮 Plasma Static 🔮',
                             image: 'ProductOlive1.png',
                             video: 'VideoOlive1.mov',
-                            description: '🎨 STRAIN DISPO 🎨\n\n -  BlueCookies 🍪🥶\n -  RainbowBelt 🍭\n -  WeedingCake x Banana 🍰🍌\n -  MandarinaSqueeze 🍊\n -  ForbiddenFruit x SourDiesel 🍎⛽️ \n\n ⚠️pas pour les amateurs de fume⛔️',
+                            description: '🎨 STRAIN DISPO 🎨\n\n -HonneyBanana 🍌🍯 -  BlueCookies 🍪🥶\n -  RainbowBelt 🍭\n -  WeedingCake x Banana 🍰🍌\n -  MandarinaSqueeze 🍊\n -  ForbiddenFruit x SourDiesel 🍎⛽️ \n\n ⚠️pas pour les amateurs de fume⛔️',
                             tarifs: [
                                 { weight: '10g', price: 130.00 },
                                 { weight: '25g', price: 300.00 },
@@ -426,6 +426,23 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', 
             // On supprime le tableau "farms" et on met "products" direct ici
             products: [
+                {
+                    id: 'Sunset Sherbet 🌅',
+                    name: 'Sunset Sherbet 🌅',
+                    farm: 'CALI NO BRAND ™️©️',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductShe.jpg',
+                    video: 'VideoShe.mov',
+                    description: 'CALI CANADA 🇨🇦  \n NEW DROP 2026/27✨',
+                    tarifs: [
+                        { weight: '10g', price: 80.00 },
+                        { weight: '25g', price: 160.00 },
+                        { weight: '50g', price: 300.00 },
+                        { weight: '100g', price: 570.00 },
+                        { weight: '200g', price: 1000.00 },
+                    ]
+                },  
                 {
                     id: 'SUNSET SHERBET 🍊',
                     name: 'SUNSET SHERBET 🍊',
@@ -610,6 +627,11 @@ function getProductById(productId) {
 
     // --- NAVIGATION ---
     function showPage(pageId) {
+           // 👇 AJOUT STRATÉGIQUE : Coupe toutes les vidéos instantanément au changement de page
+           document.querySelectorAll('video').forEach(video => {
+            video.pause();
+        });
+
         pages.forEach(p => p.classList.remove('active'));
         // S'assure que la page existe avant de l'activer
         const page = document.getElementById(pageId);
