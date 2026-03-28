@@ -42,397 +42,303 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     ];
 
-    // --- DONNÉES DE L'APPLICATION ---
-    const appData = [
-        {
-            id: 'PACK PROMO🎁',
-            name: 'PACK PROMO🎁',
-            farm: '',
-            type: 'PACK PROMO🎁',
-            quality: 'PACK PROMO🎁',
-            image: 'CategPromo.png',
-            farms: [
-                {
-                    id: 'Pack Eco 🥉',
-                    name: 'Pack Eco 🥉',
-                    image: '',
-                    badgeText: '0 produits',
-                    clickable: true,
-                    products: [
-                        {
-                            id: 'PromoBronze',
-                            name: '🎁 25G 90u + 10G FreshFrozen + 10G Cali 🎁',
-                            farm: 'TheLabSelection 🐪',
-                            promoEligible: true,
-                            type: 'Promo', 
-                            image: '', 
-                            video: '',
-                            description: '🥉 LA PORTE D\'ENTRÉE DU LAB 🥉\n\nUne sélection équilibrée pour découvrir nos trois univers : la puissance du 90u, la pureté du FreshFrozen et la saveur authentique de notre Cali. Le meilleur rapport qualité/prix pour vos sessions.',
-                            clickable: true, 
-                            tarifs: [
-                                { weight: 'Pack', price: 260.00 },
-                            ]
-                        }
-                    ]
-                },
-                {
-                    id: 'PACK PREMIUM 🥈',
-                    name: 'PACK PREMIUM 🥈',
-                    image: '',
-                    badgeText: '0 produits',
-                    clickable: true,
-                    products: [
-                        {
-                            id: 'PromoArgente',
-                            name: '🎁 10G FreshFrozen + 5G PlasmaStatic + 15G Cali  🎁',
-                            farm: 'TheLabSelection 🐪',
-                            promoEligible: true,
-                            type: 'Promo', 
-                            image: '', 
-                            video: '',
-                            description: '🥈 LE CHOIX DES CONNAISSEURS 🥈\n\nMonte d\'un cran avec ce pack Premium. Plus de matière, plus de terps. Une alliance parfaite entre le PlasmaStatic pour l\'intensité et une sélection Cali/Frozen pour le plaisir gustatif.',
-                            clickable: true, 
-                            tarifs: [
-                                { weight: 'Pack', price: 240.00 },
-                            ]
-                        }
-                    ]
-                },
-                {
-                    id: 'PACK DE LUXE 🥇',
-                    name: 'PACK DE LUXE 🥇',
-                    image: '',
-                    badgeText: '0 produits',
-                    clickable: true,
-                    products: [
-                        {
-                            id: 'PromoArgPromoOrente',
-                            name: '🎁 1 Olive (10g) PlasmaStatic + 10G Cali 🎁',
-                            farm: 'TheLabSelection 🐪',
-                            promoEligible: true,
-                            type: 'Promo', 
-                            image: '', 
-                            video: '',
-                            description: '🥇 L\'EXPÉRIENCE ULTIME TERPS LAB 🥇\n\nLe sommet de notre menu. Une quantité massive des produits les plus prestigieux de la farm. Idéal pour les stocks sérieux ou les événements.\n\n🎁 + PLEIN DE CADEAUX À VOUS OFFRIR 🎁',
-                            clickable: true, 
-                            tarifs: [
-                                { weight: 'Pack', price: 210.00 },
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        // --- Catégorie 1: HASH ---
-        {
-            id: 'HASH',
-            name: '🍫 Hash 🍫',
-            farm: '',
-            type: 'Hash',
-            quality: ' 🍫 Hash 🍫',
-            image: 'CategHash.png', 
-            farms: [
-                {
-                    id: 'The Gaz SÉLECTION🇲🇦',
-                    name: 'The Gaz SÉLECTION 🇲🇦',
-                    image: '', 
-                    badgeText: '5 produits',
-                    products: [
-                        {
-                            id: '120u PARMESAN COOKIES 🍪',
-                            name: '120u PARMESAN COOKIES 🍪',
-                            farm: 'The Gaz SÉLECTION 🇲🇦',
-                            promoEligible: true,
-                            type: 'thegaz',
-                            image: 'ProductCook.jpg',
-                            video: 'VideoCook.mp4',
-                            description: '🥧 DRY-SIFT 120u PREMIUM 🥧\n\nUn goût crémeux unique avec une puissance de frappe exceptionnelle.',
-                            tarifs: [
-                                { weight: '10g', price: 80.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 250.00 },
-                                { weight: '100g', price: 480.00 },
-                            ]
-                        },
-                        {
-                            id: '120u HAWAIAN RAIN🥥',
-                            name: '120u HAWAIAN RAIN🥥',
-                            farm: 'The Gaz SÉLECTION 🇲🇦',
-                            promoEligible: true,
-                            type: 'thegaz',
-                            image: 'ProductRain.jpg',
-                            video: 'VideoRain.mp4',
-                            description: '🥧 DRY-SIFT 120u PREMIUM 🥧\n\nUn équilibre parfait avec des notes exotiques de coco.',
-                            tarifs: [
-                                { weight: '10g', price: 80.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 250.00 },
-                                { weight: '100g', price: 480.00 },
-                            ]
-                        },
-                        {
-                            id: '90u MANDARINA 🍊',
-                            name: '90u MANDARINA 🍊',
-                            farm: 'The Gaz SÉLECTION 🇲🇦',
-                            promoEligible: true,
-                            type: 'thegaz',
-                            image: 'ProductMand.jpg',
-                            video: 'VideoMand.mp4',
-                            description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nUne explosion d\'agrumes ! 🍊💨\n\nCe 90u Mandarina se distingue par son arôme de clémentine fraîche et sa texture mousseuse ultra-propre. Un régal pour les amateurs de terps fruités.\n\n🧠 Effet : Énergisant et créatif au début, puis relaxation douce.\n👅 Goût : Mandarine sucrée et zeste d\'orange.',
-                            tarifs: [
-                                { weight: '25g', price: 110.00 },
-                                { weight: '50g', price: 200.00 },
-                                { weight: '100g', price: 370.00 },
-                                { weight: '200g', price: 740.00 },
-                            ]
-                        },
-                        {
-                            id: '90u PAPAYA 🥭',
-                            name: '90u PAPAYA 🥭',
-                            farm: 'The Gaz SÉLECTION 🇲🇦',
-                            promoEligible: true,
-                            type: 'thegaz',
-                            image: 'ProductPapaya.jpg',
-                            video: 'VideoPapaya.mp4',
-                            description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nLe Roi du Tropique ! 🥭 \n\nTexture grasse et collante, typique d\'une extraction de qualité. Une odeur de mangue mûre et de papaye qui envahit la pièce dès l\'ouverture. 🏝️🔥\n\n🧠 Effet : Puissant, apaisant, idéal pour déconnecter.\n👅 Goût : Fruits tropicaux exotiques et note crémeuse.',
-                            tarifs: [
-                                { weight: '25g', price: 110.00 },
-                                { weight: '50g', price: 200.00 },
-                                { weight: '100g', price: 370.00 },
-                                { weight: '200g', price: 740.00 },
-                            ]
-                        },
-                        {
-                            id: '90u GOLDEN CHERRY 🍒',
-                            name: '90u GOLDEN CHERRY 🍒',
-                            farm: 'The Gaz SÉLECTION 🇲🇦',
-                            promoEligible: true,
-                            type: 'thegaz',
-                            image: 'ProductCherry.jpg',
-                            video: 'VideoCherry.mp4',
-                            description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nLa Cerise sur le gâteau ! 🍒✨\n\nUn profil "Golden" rare avec des reflets ambrés. Le mariage parfait entre le sucre de la cerise et la puissance du Dry-Sift haut de gamme. 🍭🌬️\n\n🧠 Effet : Équilibré, parfait pour une consommation tout au long de la journée.\n👅 Goût : Cerise griotte et bonbon acidulé.',
-                            tarifs: [
-                                { weight: '25g', price: 110.00 },
-                                { weight: '50g', price: 200.00 },
-                                { weight: '100g', price: 370.00 },
-                                { weight: '200g', price: 740.00 },
-                            ]
-                        },
-                        {
-                            id: '90u SourDiesel ⛽️',
-                            name: '90u SourDiesel ⛽️',
-                            farm: 'The Gaz SÉLECTION 🇲🇦',
-                            promoEligible: true,
-                            type: 'thegaz',
-                            image: 'ProductSour.png',
-                            video: 'VideoSour.mp4',
-                            description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nLa légende du gaz débarque ! ⛽️\n\nUn Sour Diesel d\'exception sélectionné par nos soins. Texture sableuse parfaite et odeur de carburant ultra-prononcée. 🧪💨\n\n🧠 Effet : Montée cérébrale puissante.\n👅 Goût : Citron acide et Gaz authentique.',
-                            tarifs: [
-                                { weight: '25g', price: 110.00 },
-                                { weight: '50g', price: 200.00 },
-                                { weight: '100g', price: 370.00 },
-                                { weight: '200g', price: 740.00 },
-                            ]
-                        }
-                    ]
-                },
-                {
-                    id: 'FULLMELT FARM',
-                    name: '👨‍🌾 FULLMELT FARM 👨‍🌾',
-                    image: '', 
-                    badgeText: '5 produits',
-                    products: [
-                        {
-                            id: 'BERRY CAKE 🎂🫐',
-                            name: 'BERRY CAKE 🎂🫐',
-                            farm: 'FULLMELTFARM 🍶',
-                            promoEligible: true,
-                            type: '90u 🍓',
-                            image: 'ProductBc.jpg',
-                            video: 'VideoBc.mov',
-                            description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Douceur crémeuse et fruitée.',
-                            tarifs: [
-                                { weight: '25g', price: 110.00, oldPrice: 120.00 },
-                                { weight: '50g', price: 200.00, oldPrice: 220.00 },
-                                { weight: '100g', price: 370.00, oldPrice: 400.00 },
-                                { weight: '200g', price: 740.00, oldPrice: 760.00 },
-                            ]
-                        },
-                        {
-                            id: 'COBRA CHI 🐍',
-                            name: 'COBRA CHI 🐍',
-                            farm: 'FULLMELTFARM 🍶',
-                            promoEligible: true,
-                            type: '90u 🍓',
-                            image: 'ProductChi.jpg',
-                            video: 'VideoChi.mov',
-                            description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Puissance terreuse et incisive.',
-                            tarifs: [
-                                { weight: '25g', price: 110.00, oldPrice: 120.00 },
-                                { weight: '50g', price: 200.00, oldPrice: 220.00 },
-                                { weight: '100g', price: 370.00, oldPrice: 400.00 },
-                                { weight: '200g', price: 740.00, oldPrice: 760.00 },
-                            ]
-                        },
-                        {
-                            id: 'TANGERINE CITRUS 🍋',
-                            name: 'TANGERINE CITRUS 🍋',
-                            farm: 'FULLMELTFARM 🍶',
-                            promoEligible: true,
-                            type: '90u 🍓',
-                            image: 'ProductCitrus.jpg',
-                            video: 'VideoCitrus.mov',
-                            description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Explosion d\'agrumes frais.',
-                            tarifs: [
-                                { weight: '25g', price: 110.00, oldPrice: 120.00 },
-                                { weight: '50g', price: 200.00, oldPrice: 220.00 },
-                                { weight: '100g', price: 370.00, oldPrice: 400.00 },
-                                { weight: '200g', price: 740.00, oldPrice: 760.00 },
-                            ]
-                        },
-                        {
-                            id: '🆕 PlasmaStatic⚡️',
-                            name: '🆕 PlasmaStatic ⚡️',
-                            farm: 'FULLMELTFARM 🍶',
-                            promoEligible: true,
-                            type: '🔮 Plasma Static 🔮',
-                            image: 'ProductOlive1.png',
-                            video: 'VideoOlive1.mov',
-                            description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un produit d\'une pureté chirurgicale, sec et cassant, qui délivre une force de frappe immédiate. \n\n 🎨 STRAIN DISPO 🎨\n - HonneyBanana 🍌🍯\n - BlueCookies 🍪🥶\n - RainbowBelt 🍭\n - WeedingCake x Banana 🍰🍌\n - MandarinaSqueeze 🍊\n - ForbiddenFruit x SourDiesel 🍎⛽️ \n\n ⚠️ Pas pour les amateurs de fume ⛔️',
-                            tarifs: [
-                                { weight: '5g', price: 90.00, oldPrice: 100.00 },
-                                { weight: '10g', price: 170.00, oldPrice: 180.00 },
-                                { weight: '20g', price: 300.00, oldPrice: 350.00 },
-                                { weight: '50g', price: 600.00, oldPrice: 650.00 },
-                                { weight: '100g', price: 1100.00, oldPrice: 1250.00 },
-                            ]
-                        },
-                        {
-                            id: '🆕 Cylindre Plasma',
-                            name: '🆕 Cylindre Plasma ⚡️',
-                            farm: 'FULLMELTFARM 🍶',
-                            promoEligible: true,
-                            type: '🔮 Plasma Static 🔮',
-                            image: 'ProductOlive.png',
-                            video: 'VideoOlive.mov',
-                            description: '(Format Cylindre 50g) \n 🎨 STRAIN DISPO 🎨\n\n - TropCherry 🍒 \n - ForbiddenFruit x SourDiesel 🍎⛽️ \n - SuperBoof 🍊 \n\n ⚠️pas pour les amateurs de fume⛔️',
-                            tarifs: [
-                                { weight: '50g', price: 600.00, oldPrice: 650.00 },
-                            ]
-                        },
-                        {
-                            id: 'GRAPE GAZ 🍇',
-                            name: 'GRAPE GAZ 🍇',
-                            farm: 'FULLMELTFARM 🍶',
-                            promoEligible: true,
-                            type: '💎 Fresh Frozen 💎',
-                            image: 'ProductFrozen2.jpg',
-                            video: 'VideoFrozen2.mov',
-                            description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\nUne texture cristalline et des arômes préservés à la perfection. Notes de raisin fermenté et gaz.',
-                            tarifs: [
-                                { weight: '5g', price: 70.00, oldPrice: 80.00 },
-                                { weight: '10g', price: 120.00, oldPrice: 140.00 },
-                                { weight: '20g', price: 200.00, oldPrice: 220.00 },
-                                { weight: '50g', price: 400.00, oldPrice: 450.00 },
-                                { weight: '100g', price: 750.00, oldPrice: 800.00 },
-                            ]
-                        },
-                        {
-                            id: 'FRUIT JOY 🥭',
-                            name: 'FRUIT JOY 🥭',
-                            farm: 'FULLMELTFARM 🍶',
-                            promoEligible: true,
-                            type: '💎 Fresh Frozen 💎',
-                            image: 'ProductFrozen1.jpg',
-                            video: 'VideoFrozen1.mov',
-                            description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Cocktail de fruits tropicaux.',
-                            tarifs: [
-                                { weight: '5g', price: 70.00, oldPrice: 80.00 },
-                                { weight: '10g', price: 120.00, oldPrice: 140.00 },
-                                { weight: '20g', price: 200.00, oldPrice: 220.00 },
-                                { weight: '50g', price: 400.00, oldPrice: 450.00 },
-                                { weight: '100g', price: 750.00, oldPrice: 800.00 },
-                            ]
-                        },
-                        {
-                            id: 'GARLIC COOKIES 🍪',
-                            name: 'GARLIC COOKIES 🍪',
-                            farm: 'FULLMELTFARM 🍶',
-                            promoEligible: true,
-                            type: '💎 Fresh Frozen 💎',
-                            image: 'ProductFrozen3.jpg',
-                            video: 'VideoFrozen3.mov',
-                            description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés. Arôme complexe et puissant de Garlic Cookies.',
-                            tarifs: [
-                                { weight: '5g', price: 70.00, oldPrice: 80.00 },
-                                { weight: '10g', price: 120.00, oldPrice: 140.00 },
-                                { weight: '20g', price: 200.00, oldPrice: 220.00 },
-                                { weight: '50g', price: 400.00, oldPrice: 450.00 },
-                                { weight: '100g', price: 750.00, oldPrice: 800.00 },
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        // --- Catégorie 2: BEUH ---
-        {
-            id: 'WEED',
-            name: ' 🕯 Weed 🕯',
-            type: 'Weed',
-            image: 'CategWeed.png', 
-            products: [
-                {
-                    id: 'Sunset Sherbet 🌅',
-                    name: 'Sunset Sherbet 🌅',
-                    farm: 'CALI NO BRAND ™️©️',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductShe.jpg',
-                    video: 'VideoShe.mov',
-                    description: '🇨🇦 CALI CANADA IMPORT 🇨🇦\n\nDirectement issue de notre nouveau drop 2026/27. Des buds denses, givrées et une manucure parfaite. \n🌅 Sunset : Notes de sorbet et fruits rouges.',
-                    tarifs: [
-                        { weight: '10g', price: 60.00, oldPrice: 80.00 },
-                        { weight: '25g', price: 150.00, oldPrice: 180.00 },
-                        { weight: '50g', price: 290.00, oldPrice: 350.00 },
-                        { weight: '100g', price: 550.00, oldPrice: 600.00 },
-                    ]
-                },  
-                {
-                    id: 'Candy Cake 🍬',
-                    name: 'Candy Cake 🍬',
-                    farm: 'CALI NO BRAND ™️©️',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductSun.jpg',
-                    video: 'VideoSun.mov',
-                    description: '🇨🇦 CALI CANADA IMPORT 🇨🇦\n\nDirectement issue de notre nouveau drop 2026/27. Des buds denses, givrées et une manucure parfaite.\n🍬 Candy Cake : Profil sucré, type "bakery" ultra-gourmand.',
-                    tarifs: [
-                        { weight: '10g', price: 60.00, oldPrice: 80.00 },
-                        { weight: '25g', price: 150.00, oldPrice: 180.00 },
-                        { weight: '50g', price: 290.00, oldPrice: 350.00 },
-                        { weight: '100g', price: 550.00, oldPrice: 600.00 },
-                    ]
-                },  
-                {
-                    id: 'PAPAYA_CHERRY_GELATO',
-                    name: 'Alien Gushers 👽',
-                    farm: 'CALI NO BRAND ™️©️',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductGush.jpg',
-                    video: 'VideoGush.mp4',
-                    description: 'Le mariage de la Papaye et de la Cerise Gelato. Très fruité. \n\n 🍒 LA FOLIE 🤪 ‼️ Goût intense et buds magnifiques.',
-                    tarifs: [
-                        { weight: '10g', price: 60.00, oldPrice: 80.00 },
-                        { weight: '25g', price: 150.00, oldPrice: 180.00 },
-                        { weight: '50g', price: 290.00, oldPrice: 350.00 },
-                        { weight: '100g', price: 550.00, oldPrice: 600.00 },
-                    ]
-                }   
-            ]
-        }
-    ];
+  // --- DONNÉES DE L'APPLICATION ---
+  const appData = [
+    {
+        id: 'PACK PROMO🎁',
+        name: 'PACK PROMO🎁',
+        type: 'PACK PROMO🎁',
+        quality: 'PACK PROMO🎁',
+        image: 'CategPromo.png',
+        farms: [
+            {
+                id: 'Pack Eco 🥉',
+                name: 'Pack Eco 🥉',
+                products: [
+                    {
+                        id: 'PromoBronze',
+                        name: '🎁 25G 90u + 10G FreshFrozen + 10G Cali 🎁',
+                        farm: 'TheLabSelection 🐪',
+                        promoEligible: true,
+                        type: 'Promo',
+                        description: '🥉 LA PORTE D\'ENTRÉE DU LAB 🥉\n\nUne sélection équilibrée pour découvrir nos trois univers : la puissance du 90u, la pureté du FreshFrozen et la saveur authentique de notre Cali. Le meilleur rapport qualité/prix pour vos sessions.',
+                        tarifs: [{ weight: 'Pack', price: 240.00 }]
+                    }
+                ]
+            },
+            {
+                id: 'PACK PREMIUM 🥈',
+                name: 'PACK PREMIUM 🥈',
+                products: [
+                    {
+                        id: 'PromoArgente',
+                        name: '🎁 15G FreshFrozen + 15G PlasmaStatic + 15G Cali 🎁',
+                        farm: 'TheLabSelection 🐪',
+                        promoEligible: true,
+                        type: 'Promo',
+                        description: '🥈 LE CHOIX DES CONNAISSEURS 🥈\n\nMonte d\'un cran avec ce pack Premium. Plus de matière, plus de terps. Une alliance parfaite entre le PlasmaStatic pour l\'intensité et une sélection Cali/Frozen pour le plaisir gustatif.',
+                        tarifs: [{ weight: 'Pack', price: 380.00 }]
+                    }
+                ]
+            },
+            {
+                id: 'PACK DE LUXE 🥇',
+                name: 'PACK DE LUXE 🥇',
+                products: [
+                    {
+                        id: 'PromoArgPromoOrente',
+                        name: '🎁 25G FreshFrozen + 25G PlasmaStatic + 25G Cali 🎁',
+                        farm: 'TheLabSelection 🐪',
+                        promoEligible: true,
+                        type: 'Promo',
+                        description: '🥇 L\'EXPÉRIENCE ULTIME TERPS LAB 🥇\n\nLe sommet de notre menu. Une quantité massive des produits les plus prestigieux de la farm. Idéal pour les stocks sérieux ou les événements.\n\n🎁 + PLEIN DE CADEAUX À VOUS OFFRIR 🎁',
+                        tarifs: [{ weight: 'Pack', price: 600.00 }]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'HASH',
+        name: '🍫 Hash 🍫',
+        type: 'Hash',
+        quality: ' 🍫 Hash 🍫',
+        image: 'CategHash.png',
+        farms: [
+            {
+                id: 'The Gaz SÉLECTION🇲🇦',
+                name: 'The Gaz SÉLECTION 🇲🇦',
+                products: [
+                    {
+                        id: '120u PARMESAN COOKIES 🍪',
+                        name: '120u PARMESAN COOKIES 🍪',
+                        farm: 'The Gaz SÉLECTION 🇲🇦',
+                        type: 'thegaz',
+                        image: 'ProductCook.jpg',
+                        video: 'VideoCook.mp4',
+                        description: '🥧 DRY-SIFT 120u PREMIUM 🥧\n\nUn goût crémeux unique avec une puissance de frappe exceptionnelle.',
+                        tarifs: [
+                            { weight: '10g', price: 80.00 },
+                            { weight: '25g', price: 150.00 },
+                            { weight: '50g', price: 250.00 },
+                            { weight: '100g', price: 480.00 }
+                        ]
+                    },
+                    {
+                        id: '90u SourDiesel ⛽️',
+                        name: '90u SourDiesel ⛽️',
+                        farm: 'The Gaz SÉLECTION 🇲🇦',
+                        type: 'thegaz',
+                        image: 'ProductSour.png',
+                        video: 'VideoSour.mp4',
+                        description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nLa légende du gaz débarque ! ⛽️\n\nTexture sableuse parfaite et odeur de carburant ultra-prononcée. 🧪💨',
+                        tarifs: [
+                            { weight: '5g', price: 40.00 },
+                            { weight: '10g', price: 70.00 },
+                            { weight: '20g', price: 120.00 },
+                            { weight: '50g', price: 250.00 },
+                            { weight: '100g', price: 400.00 }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'FULLMELT FARM',
+                name: '👨‍🌾 FULLMELT FARM 👨‍🌾',
+                products: [
+                    {
+                        id: 'BERRY CAKE 🎂🫐',
+                        name: 'BERRY CAKE 🎂🫐',
+                        farm: 'FULLMELTFARM 🍶',
+                        type: '90u 🍓',
+                        image: 'ProductBc.jpg',
+                        video: 'VideoBc.mov',
+                        description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nExtraction grasse et ultra-chargée en terpènes. Douceur crémeuse et fruitée.',
+                        tarifs: [
+                            { weight: '25g', price: 110.00, oldPrice: 120.00 },
+                            { weight: '50g', price: 200.00, oldPrice: 220.00 },
+                            { weight: '100g', price: 370.00, oldPrice: 400.00 },
+                            { weight: '200g', price: 740.00, oldPrice: 760.00 }
+                        ]
+                    },
+                    {
+                        id: 'COBRA CHI 🐍',
+                        name: 'COBRA CHI 🐍',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '90u 🍓',
+                        image: 'ProductChi.jpg',
+                        video: 'VideoChi.mov',
+                        description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Puissance terreuse et incisive.',
+                        tarifs: [
+                            { weight: '25g', price: 110.00, oldPrice: 120.00 },
+                            { weight: '50g', price: 200.00, oldPrice: 220.00 },
+                            { weight: '100g', price: 370.00, oldPrice: 400.00 },
+                            { weight: '200g', price: 740.00, oldPrice: 760.00 },
+                        ]
+                    },
+                    {
+                        id: 'TANGERINE CITRUS 🍋',
+                        name: 'TANGERINE CITRUS 🍋',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '90u 🍓',
+                        image: 'ProductCitrus.jpg',
+                        video: 'VideoCitrus.mov',
+                        description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Explosion d\'agrumes frais.',
+                        tarifs: [
+                            { weight: '25g', price: 110.00, oldPrice: 120.00 },
+                            { weight: '50g', price: 200.00, oldPrice: 220.00 },
+                            { weight: '100g', price: 370.00, oldPrice: 400.00 },
+                            { weight: '200g', price: 740.00, oldPrice: 760.00 },
+                        ]
+                    },
+                    {
+                        id: '🆕 PlasmaStatic⚡️',
+                        name: '🆕 PlasmaStatic ⚡️',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '🔮 Plasma Static 🔮',
+                        image: 'ProductOlive1.png',
+                        video: 'VideoOlive1.mov',
+                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un produit d\'une pureté chirurgicale, sec et cassant, qui délivre une force de frappe immédiate. \n\n 🎨 STRAIN DISPO 🎨\n - HonneyBanana 🍌🍯\n - BlueCookies 🍪🥶\n - RainbowBelt 🍭\n - WeedingCake x Banana 🍰🍌\n - MandarinaSqueeze 🍊\n - ForbiddenFruit x SourDiesel 🍎⛽️ \n\n ⚠️ Pas pour les amateurs de fume ⛔️',
+                        tarifs: [
+                            { weight: '10g', price: 130.00 },
+                            { weight: '25g', price: 300.00 },
+                            { weight: '50g', price: 550.00},
+                            { weight: '100g', price: 1000.00 },
+                            { weight: '100g', price: 1950.00 },
+                        ]
+                    },
+                    {
+                        id: '🆕 Cylindre Plasma',
+                        name: '🆕 Cylindre Plasma ⚡️',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '🔮 Plasma Static 🔮',
+                        image: 'ProductOlive.png',
+                        video: 'VideoOlive.mov',
+                        description: '(Format Cylindre 50g) \n 🎨 STRAIN DISPO 🎨\n\n - TropCherry 🍒 \n - ForbiddenFruit x SourDiesel 🍎⛽️ \n - SuperBoof 🍊 \n\n ⚠️pas pour les amateurs de fume⛔️',
+                        tarifs: [
+                            { weight: '10g', price: 130.00 },
+                            { weight: '25g', price: 300.00 },
+                            { weight: '50g', price: 550.00},
+                            { weight: '100g', price: 1000.00 },
+                            { weight: '100g', price: 1950.00 },
+                        ]
+                    },
+                    {
+                        id: 'GRAPE GAZ 🍇',
+                        name: 'GRAPE GAZ 🍇',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductFrozen2.jpg',
+                        video: 'VideoFrozen2.mov',
+                        description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\nUne texture cristalline et des arômes préservés à la perfection. Notes de raisin fermenté et gaz.',
+                        tarifs: [
+                            { weight: '10g', price: 90.00},
+                            { weight: '25g', price: 180.00 },
+                            { weight: '50g', price: 330.00 },
+                            { weight: '100g', price: 650.00 },
+                            { weight: '200g', price: 1250.00 },
+                        ]
+                    },
+                    {
+                        id: 'FRUIT JOY 🥭',
+                        name: 'FRUIT JOY 🥭',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductFrozen1.jpg',
+                        video: 'VideoFrozen1.mov',
+                        description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Cocktail de fruits tropicaux.',
+                        tarifs: [
+                            { weight: '10g', price: 90.00},
+                            { weight: '25g', price: 180.00 },
+                            { weight: '50g', price: 330.00 },
+                            { weight: '100g', price: 650.00 },
+                            { weight: '200g', price: 1250.00 },
+                        ]
+                    },
+                    {
+                        id: 'GARLIC COOKIES 🍪',
+                        name: 'GARLIC COOKIES 🍪',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductFrozen3.jpg',
+                        video: 'VideoFrozen3.mov',
+                        description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés. Arôme complexe et puissant de Garlic Cookies.',
+                        tarifs: [
+                            { weight: '10g', price: 90.00},
+                            { weight: '25g', price: 180.00 },
+                            { weight: '50g', price: 330.00 },
+                            { weight: '100g', price: 650.00 },
+                            { weight: '200g', price: 1250.00 },
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'WEED',
+        name: ' 🕯 Weed 🕯',
+        type: 'Weed',
+        image: 'CategWeed.png', 
+        products: [
+            {
+                id: 'Sunset Sherbet 🌅',
+                name: 'Sunset Sherbet 🌅',
+                farm: 'CALI NO BRAND ™️©️',
+                promoEligible: true,
+                type: 'Weed',
+                image: 'ProductShe.jpg',
+                video: 'VideoShe.mov',
+                description: '🇨🇦 CALI CANADA IMPORT 🇨🇦\n\nDirectement issue de notre nouveau drop 2026/27. Des buds denses, givrées et une manucure parfaite. \n🌅 Sunset : Notes de sorbet et fruits rouges.',
+                tarifs: [
+                    { weight: '10g', price: 80.00 },
+                    { weight: '25g', price: 160.00 },
+                    { weight: '50g', price: 300.00},
+                    { weight: '100g', price: 570.00 },
+                    { weight: '200g', price: 1000.00 },
+                ]
+            },  
+            {
+                id: 'Candy Cake 🍬',
+                name: 'Candy Cake 🍬',
+                farm: 'CALI NO BRAND ™️©️',
+                promoEligible: true,
+                type: 'Weed',
+                image: 'ProductSun.jpg',
+                video: 'VideoSun.mov',
+                description: '🇨🇦 CALI CANADA IMPORT 🇨🇦\n\nDirectement issue de notre nouveau drop 2026/27. Des buds denses, givrées et une manucure parfaite.\n🍬 Candy Cake : Profil sucré, type "bakery" ultra-gourmand.',
+                tarifs: [
+                    { weight: '10g', price: 70.00 },
+                    { weight: '25g', price: 150.00 },
+                    { weight: '50g', price: 280.00 },
+                    { weight: '100g', price: 500.00 },
+                ]
+            },
+            {
+                id: 'PAPAYA_CHERRY_GELATO',
+                name: 'Alien Gushers 👽',
+                farm: 'CALI NO BRAND ™️©️',
+                type: 'Weed',
+                image: 'ProductGush.jpg',
+                video: 'VideoGush.mp4',
+                description: 'Le mariage de la Papaye et de la Cerise Gelato. Très fruité.\n\n 🍒 LA FOLIE 🤪 ‼️ Buds magnifiques.',
+                tarifs: [
+                    { weight: '10g', price: 60.00, oldPrice: 80.00 },
+                    { weight: '25g', price: 150.00, oldPrice: 180.00 },
+                    { weight: '50g', price: 290.00, oldPrice: 350.00 },
+                    { weight: '100g', price: 550.00, oldPrice: 600.00 }
+                ]
+            }   
+        ]
+    }
+];
 
     // --- VARIABLES D'ÉTAT ---
     let cart = [];
