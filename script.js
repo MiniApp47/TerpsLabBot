@@ -147,6 +147,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 name: '👨‍🌾 FULLMELT FARM 👨‍🌾',
                 products: [
                     {
+                        id: '90u PREMIUM ✨',
+                        name: '90u PREMIUM ✨',
+                        farm: '🧈 Golden Plants',
+                        type: '90u 🍓',
+                        image: 'ProductGP.png',
+                        video: 'VideoGP.mov',
+                        description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\STRAIN DISPONIBLE : \n\n - BiFruta 🍎🍊   \n - BananaKush 🍌 \n - Zookies 🍪',
+                        tarifs: [
+                            { weight: '10g', price: 60.00},
+                            { weight: '25g', price: 120.00},
+                            { weight: '50g', price: 200.00 },
+                            { weight: '100g', price: 370.00 },
+                            { weight: '200g', price: 700.00 },
+                            { weight: '500g', price: 1700.00 }
+                        ]
+                    },
+                    {
                         id: 'BERRY CAKE 🎂🫐',
                         name: 'BERRY CAKE 🎂🫐',
                         farm: 'FULLMELTFARM 🍶',
@@ -155,6 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoBc.mov',
                         description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nExtraction grasse et ultra-chargée en terpènes. Douceur crémeuse et fruitée.',
                         tarifs: [
+                            { weight: '10g', price: 60.00},
                             { weight: '25g', price: 110.00, oldPrice: 120.00 },
                             { weight: '50g', price: 200.00, oldPrice: 220.00 },
                             { weight: '100g', price: 370.00, oldPrice: 400.00 },
@@ -171,6 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoChi.mov',
                         description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Puissance terreuse et incisive.',
                         tarifs: [
+                            { weight: '10g', price: 60.00},
                             { weight: '25g', price: 110.00, oldPrice: 120.00 },
                             { weight: '50g', price: 200.00, oldPrice: 220.00 },
                             { weight: '100g', price: 370.00, oldPrice: 400.00 },
@@ -187,6 +206,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoCitrus.mov',
                         description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Explosion d\'agrumes frais.',
                         tarifs: [
+                            { weight: '10g', price: 60.00},
                             { weight: '25g', price: 110.00, oldPrice: 120.00 },
                             { weight: '50g', price: 200.00, oldPrice: 220.00 },
                             { weight: '100g', price: 370.00, oldPrice: 400.00 },
@@ -207,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '25g', price: 300.00 },
                             { weight: '50g', price: 550.00},
                             { weight: '100g', price: 1000.00 },
-                            { weight: '100g', price: 1950.00 },
+                            { weight: '200g', price: 1950.00 },
                         ]
                     },
                     {
@@ -224,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '25g', price: 300.00 },
                             { weight: '50g', price: 550.00},
                             { weight: '100g', price: 1000.00 },
-                            { weight: '100g', price: 1950.00 },
+                            { weight: '200g', price: 1950.00 },
                         ]
                     },
                     {
