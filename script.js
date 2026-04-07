@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         type: '90u 🍓',
                         image: 'ProductGP.png',
                         video: 'VideoGP.mov',
-                        description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\STRAIN DISPONIBLE : \n\n - BiFruta 🍎🍊   \n - BananaKush 🍌 \n - Zookies 🍪',
+                        description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\STRAIN DISPONIBLE : \n\n - YellowRuntz 🍋 \n - Onionz 🧅 \n - BerryCake 🫐',
                         tarifs: [
                             { weight: '10g', price: 60.00},
                             { weight: '25g', price: 120.00},
@@ -219,9 +219,9 @@ document.addEventListener('DOMContentLoaded', function () {
                         farm: 'FULLMELTFARM 🍶',
                         promoEligible: true,
                         type: '🔮 Plasma Static 🔮',
-                        image: 'ProductOlive1.png',
+                        image: 'ProductOlive1.jpg',
                         video: 'VideoOlive1.mov',
-                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un produit d\'une pureté chirurgicale, sec et cassant, qui délivre une force de frappe immédiate. \n\n 🎨 STRAIN DISPO 🎨\n - HonneyBanana 🍌🍯\n - BlueCookies 🍪🥶\n - RainbowBelt 🍭\n - WeedingCake x Banana 🍰🍌\n - MandarinaSqueeze 🍊\n - ForbiddenFruit x SourDiesel 🍎⛽️ \n\n ⚠️ Pas pour les amateurs de fume ⛔️',
+                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un produit d\'une pureté chirurgicale, sec et cassant, qui délivre une force de frappe immédiate. \n\n 🎨 STRAIN DISPO 🎨\n - SuperBoof 😶‍🌫️ \n - HonneyBanana 🍌🍯\n - RainbowBelt 🍭\n - MandarinaSqueeze 🍊\n - ForbiddenFruit x SourDiesel 🍎⛽️ \n\n ⚠️ Pas pour les amateurs de fume ⛔️',
                         tarifs: [
                             { weight: '10g', price: 130.00 },
                             { weight: '25g', price: 300.00 },
@@ -248,13 +248,47 @@ document.addEventListener('DOMContentLoaded', function () {
                         ]
                     },
                     {
+                        id: 'HashBurger 🍔',
+                        name: 'HashBurger 🍔',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductFrozen2.png',
+                        video: 'VideoFrozen2.mov',
+                        description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Des notes épicées et umami avec un fond gaz lourd et persistant.',
+                        tarifs: [
+                            { weight: '10g', price: 90.00},
+                            { weight: '25g', price: 180.00 },
+                            { weight: '50g', price: 330.00 },
+                            { weight: '100g', price: 650.00 },
+                            { weight: '200g', price: 1250.00 },
+                        ]
+                    },
+                    {
+                        id: 'MoroccanPeach 🍑🇲🇦',
+                        name: 'MoroccanPeach 🍑🇲🇦',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductMo.png',
+                        video: 'VideoMo.mov',
+                        description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Le mariage parfait entre la douceur d\'une pêche juteuse et des notes épicées traditionnelles.',
+                        tarifs: [
+                            { weight: '10g', price: 90.00},
+                            { weight: '25g', price: 180.00 },
+                            { weight: '50g', price: 330.00 },
+                            { weight: '100g', price: 650.00 },
+                            { weight: '200g', price: 1250.00 },
+                        ]
+                    },
+                    {
                         id: 'GRAPE GAZ 🍇',
                         name: 'GRAPE GAZ 🍇',
                         farm: 'FULLMELTFARM 🍶',
                         promoEligible: true,
                         type: '💎 Fresh Frozen 💎',
-                        image: 'ProductFrozen2.jpg',
-                        video: 'VideoFrozen2.mov',
+                        image: 'ProductGr.jpg',
+                        video: 'VideoGr.mov',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\nUne texture cristalline et des arômes préservés à la perfection. Notes de raisin fermenté et gaz.',
                         tarifs: [
                             { weight: '10g', price: 90.00},
