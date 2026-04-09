@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const contactLinks = [
         {
             name: 'TELEGRAM PRINCIPAL 🥇',
-            url: 'https://t.me/+k4OTSjxCjyNjOWNk',
+            url: 'https://t.me/+QcSnntDwGQM2NGI0',
             icon: '#icon-telegram',
             id: 'telegram-main',
             className: 'telegram-main', 
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             name: 'POTATO PRINCIPAL 🥔',
-            url: 'https://duanym138.org/TERPSLAB33',
+            url: 'https://tutuduanyu.org/TERPSLAB33',
             icon: '#icon-potato',
             id: 'potato-main',
             className: 'potato-main', 
