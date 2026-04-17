@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         farm: 'The Gaz SÉLECTION 🇲🇦',
                         promoEligible: true,
                         type: 'thegaz',
-                        image: 'ProductFroz.png',
+                        image: 'ProductFroz.jpg',
                         video: 'VideoFroz.mov',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\STRAIN DISPO 🎨\n\n - Tropical.ODV 🌴 \n - GrappeGasoline 🍇 \n - ForbiddenFruit x FruitJoy 🍓 \n\n NEW DROP 2026/27 ✨✨',
                         tarifs: [
