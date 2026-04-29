@@ -186,15 +186,14 @@ document.addEventListener('DOMContentLoaded', function () {
                         name: 'BERRY CAKE 🎂🫐',
                         farm: 'FULLMELTFARM 🍶',
                         type: '90u 🍓',
-                        image: 'ProductBc.jpg',
-                        video: 'VideoBc.mov',
+                        image: 'ProductBc.png',
+                        video: 'VideoBc.MP4',
                         description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nExtraction grasse et ultra-chargée en terpènes. Douceur crémeuse et fruitée.',
                         tarifs: [
-                            { weight: '10g', price: 60.00},
-                            { weight: '25g', price: 110.00, oldPrice: 120.00 },
-                            { weight: '50g', price: 200.00, oldPrice: 220.00 },
-                            { weight: '100g', price: 370.00, oldPrice: 400.00 },
-                            { weight: '200g', price: 740.00, oldPrice: 760.00 }
+                            { weight: '10g', price: 70.00},
+                            { weight: '25g', price: 120.00 },
+                            { weight: '50g', price: 220.00 },
+                            { weight: '100g', price: 380.00, oldPrice: 400.00 },
                         ]
                     },
                     {
@@ -203,15 +202,14 @@ document.addEventListener('DOMContentLoaded', function () {
                         farm: 'FULLMELTFARM 🍶',
                         promoEligible: true,
                         type: '90u 🍓',
-                        image: 'ProductChi.jpg',
-                        video: 'VideoChi.mov',
+                        image: 'ProductChi.png',
+                        video: 'VideoChi.mp4',
                         description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Puissance terreuse et incisive.',
                         tarifs: [
-                            { weight: '10g', price: 60.00},
-                            { weight: '25g', price: 110.00, oldPrice: 120.00 },
-                            { weight: '50g', price: 200.00, oldPrice: 220.00 },
-                            { weight: '100g', price: 370.00, oldPrice: 400.00 },
-                            { weight: '200g', price: 740.00, oldPrice: 760.00 },
+                            { weight: '10g', price: 70.00},
+                            { weight: '25g', price: 120.00 },
+                            { weight: '50g', price: 220.00 },
+                            { weight: '100g', price: 380.00, oldPrice: 400.00 },
                         ]
                     },
                     {
@@ -220,15 +218,14 @@ document.addEventListener('DOMContentLoaded', function () {
                         farm: 'FULLMELTFARM 🍶',
                         promoEligible: true,
                         type: '90u 🍓',
-                        image: 'ProductCitrus.jpg',
+                        image: 'ProductCitrus.png',
                         video: 'VideoCitrus.mov',
                         description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Explosion d\'agrumes frais.',
                         tarifs: [
-                            { weight: '10g', price: 60.00},
-                            { weight: '25g', price: 110.00, oldPrice: 120.00 },
-                            { weight: '50g', price: 200.00, oldPrice: 220.00 },
-                            { weight: '100g', price: 370.00, oldPrice: 400.00 },
-                            { weight: '200g', price: 740.00, oldPrice: 760.00 },
+                            { weight: '10g', price: 70.00},
+                            { weight: '25g', price: 120.00 },
+                            { weight: '50g', price: 220.00 },
+                            { weight: '100g', price: 380.00, oldPrice: 400.00 },
                         ]
                     },
                     {
@@ -276,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: true,
                         type: '💎 Fresh Frozen 💎',
                         image: 'ProductFrozen2.png',
-                        video: 'VideoFrozen2.mov',
+                        video: 'VideoFrozen2.mp4',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Des notes épicées et umami avec un fond gaz lourd et persistant.',
                         tarifs: [
                             { weight: '5g', price: 70.00},
@@ -412,14 +409,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 name: 'Alien Gushers 👽',
                 farm: 'CALI NO BRAND ™️©️',
                 type: 'Weed',
-                image: 'ProductGush.jpg',
+                image: 'ProductGush.png',
                 video: 'VideoGush.mp4',
                 description: 'Le mariage de la Papaye et de la Cerise Gelato. Très fruité.\n\n 🍒 LA FOLIE 🤪 ‼️ Buds magnifiques.',
                 tarifs: [
-                    { weight: '10g', price: 60.00, oldPrice: 80.00 },
-                    { weight: '25g', price: 150.00, oldPrice: 180.00 },
+                    { weight: '10g', price: 70.00, oldPrice: 80.00 },
+                    { weight: '25g', price: 160.00, oldPrice: 180.00 },
                     { weight: '50g', price: 290.00, oldPrice: 350.00 },
-                    { weight: '100g', price: 550.00, oldPrice: 600.00 }
+                    { weight: '100g', price: 560.00, oldPrice: 600.00 }
                 ]
             }   
         ]
