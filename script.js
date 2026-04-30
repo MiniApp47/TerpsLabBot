@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: true,
                         type: '90u 🍓',
                         image: 'ProductCitrus.png',
-                        video: 'VideoCitrus.mov',
+                        video: 'VideoCitrus.mp4',
                         description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne extraction propre, grasse et ultra-chargée en terpènes. Explosion d\'agrumes frais.',
                         tarifs: [
                             { weight: '10g', price: 70.00},
