@@ -105,61 +105,185 @@ document.addEventListener('DOMContentLoaded', function () {
         quality: ' 🍫 Hash 🍫',
         image: 'CategHash.png',
         farms: [
-            {
-                id: 'The Gaz SÉLECTION🇲🇦',
-                name: 'The Gaz SÉLECTION 🇲🇦',
-                products: [
-                      {
-                        id: 'FRESH FROZEN🧊❄️',
-                        name: 'FRESH FROZEN🧊❄️',
-                        farm: 'The Gaz SÉLECTION 🇲🇦',
-                        promoEligible: true,
-                        type: 'thegaz',
-                        image: 'ProductFroz.jpg',
-                        video: 'VideoFroz.mov',
-                        description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\STRAIN DISPO 🎨\n\n - Tropical.ODV 🌴 \n - GrappeGasoline 🍇 \n - ForbiddenFruit x FruitJoy 🍓 \n\n NEW DROP 2026/27 ✨✨',
-                        tarifs: [
-                            { weight: '5g', price: 70.00},
-                            { weight: '10g', price: 130.00},
-                            { weight: '25g', price: 250.00 },
-                            { weight: '50g', price: 450.00 },
-                            { weight: '100g', price: 870.00 },
-                            { weight: '200g', price: 1650.00 },
-                        ]
-                    },
-                    {
-                        id: '120u PARMESAN COOKIES 🍪',
-                        name: '120u PARMESAN COOKIES 🍪',
-                        farm: 'The Gaz SÉLECTION 🇲🇦',
-                        type: 'thegaz',
-                        image: 'ProductCook.jpg',
-                        video: 'VideoCook.mp4',
-                        description: '🥧 DRY-SIFT 120u PREMIUM 🥧\n\nUn goût crémeux unique avec une puissance de frappe exceptionnelle.',
-                        tarifs: [
-                            { weight: '10g', price: 80.00 },
-                            { weight: '25g', price: 150.00 },
-                            { weight: '50g', price: 250.00 },
-                            { weight: '100g', price: 480.00 }
-                        ]
-                    },
-                    {
-                        id: '90u SourDiesel ⛽️',
-                        name: '90u SourDiesel ⛽️',
-                        farm: 'The Gaz SÉLECTION 🇲🇦',
-                        type: 'thegaz',
-                        image: 'ProductSour.png',
-                        video: 'VideoSour.mp4',
-                        description: '💎 DRY-SIFT 90u PREMIUM 💎\n\nLa légende du gaz débarque ! ⛽️\n\nTexture sableuse parfaite et odeur de carburant ultra-prononcée. 🧪💨',
-                        tarifs: [
-                            { weight: '5g', price: 40.00 },
-                            { weight: '10g', price: 70.00 },
-                            { weight: '20g', price: 120.00 },
-                            { weight: '50g', price: 250.00 },
-                            { weight: '100g', price: 400.00 }
-                        ]
-                    }
-                ]
-            },
+           {
+                    id: 'The Gaz SÉLECTION🇲🇦',
+                    name: 'The Gaz SÉLECTION 🇲🇦',
+                    products: [
+                        // --- 🔮 PLASMA STATIC 🔮 ---
+                        {
+                            id: '24K 🏆',
+                            name: '24K 🏆',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            type: '🔮 Plasma Static 🔮',
+                            image: 'ProductRB.png',
+                            video: 'VideoRB.mp4',
+                            description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nPureté absolue, texture sèche et cassante. Profil aromatique d\'agrumes intenses avec une touche terreuse.\n\n⚠️ Réservé aux amateurs avertis.',
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 320.00 },
+                                { weight: '50g', price: 600.00 },
+                                { weight: '100g', price: 1100.00 },
+                            ]
+                        },
+                        {
+                            id: 'RUNTZ X BANANA 🧬🍌',
+                            name: 'RUNTZ X BANANA 🧬🍌',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            type: '🔮 Plasma Static 🔮',
+                            image: 'ProductRB.png',
+                            video: 'VideoRB.mp4',
+                            description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nPureté absolue, texture sèche et cassante. Le croisement parfait entre la douceur de la Banana et la puissance fruitée de la Runtz.\n\n⚠️ Réservé aux amateurs avertis.',
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 320.00 },
+                                { weight: '50g', price: 600.00 },
+                                { weight: '100g', price: 1100.00 },
+                            ]
+                        },
+
+                        // --- 🏅 120u ---
+                        {
+                            id: '120u BUDDHA LEMON 🍋',
+                            name: '120u BUDDHA LEMON 🍋',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            type: '120u 🏅',
+                            image: 'ProductBU.png',
+                            video: 'VideoBU.mp4',
+                            description: '🏅 DRY-SIFT 120u PREMIUM 🏅\n\nTexture sableuse et profil ultra-citronné. Une fraîcheur de Buddha Lemon qui réveille les papilles.',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 480.00 },
+                                { weight: '200g', price: 900.00 },
+                            ]
+                        },
+                        {
+                            id: '120u PURPLE PUNCH 🥊',
+                            name: '120u PURPLE PUNCH 🥊',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            type: '120u 🏅',
+                            image: 'ProductPP.png',
+                            video: 'VideoPP.mp4',
+                            description: '🏅 DRY-SIFT 120u PREMIUM 🏅\n\nUne frappe lourde aux notes de raisin sucré et de baies. Un effet corporel profond.',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 480.00 },
+                                { weight: '200g', price: 900.00 },
+                            ]
+                        },
+                        {
+                            id: '120u PARMESAN COOKIES 🍪',
+                            name: '120u PARMESAN COOKIES 🍪',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            type: '120u 🏅',
+                            image: 'ProductCook.jpg',
+                            video: 'VideoCook.mp4',
+                            description: '🏅 DRY-SIFT 120u PREMIUM 🏅\n\nUn goût crémeux unique avec une puissance de frappe exceptionnelle.',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 480.00 }
+                            ]
+                        },
+
+                        // --- 🍓 90u ---
+                        {
+                            id: '90u APPLE BANANA 🍎🍌',
+                            name: '90u APPLE BANANA 🍎🍌',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            type: '90u 🍓',
+                            image: 'ProductApp.png',
+                            video: 'VideoApp.mp4',
+                            description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUn profil terpénique explosif : pomme acidulée et banane crémeuse avec une texture mousseuse incroyable.',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 130.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 380.00 },
+                                { weight: '200g', price: 700.00 },
+                                { weight: '500G', price: 1700.00 }
+                            ]
+                        },
+                        {
+                            id: '90u GUSHER MINTZ 🍬',
+                            name: '90u GUSHER MINTZ 🍬',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            type: '90u 🍓',
+                            image: 'ProductGuu.png',
+                            video: 'VideoGuu.mp4',
+                            description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nNotes sucrées de bonbon Gusher avec une touche de menthe rafraîchissante en fin de bouche.',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 130.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 380.00 },
+                                { weight: '200g', price: 700.00 },
+                                { weight: '500G', price: 1700.00 }
+                            ]
+                        },
+                        {
+                            id: '90u APRICOT 🍑',
+                            name: '90u APRICOT 🍑',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            type: '90u 🍓',
+                            image: 'ProductAp.png',
+                            video: 'VideoAp.mp4',
+                            description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUn goût profond d\'abricot mûr avec une extraction propre et extrêmement grasse.',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 130.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 380.00 },
+                                { weight: '200g', price: 700.00 },
+                                { weight: '500G', price: 1700.00 }
+                            ]
+                        },
+                        {
+                            id: '90u SourDiesel ⛽️',
+                            name: '90u SourDiesel ⛽️',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            type: '90u 🍓',
+                            image: 'ProductSour.png',
+                            video: 'VideoSour.mp4',
+                            description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nLa légende du gaz débarque ! ⛽️\n\nTexture sableuse parfaite et odeur de carburant ultra-prononcée. 🧪💨',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 130.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 380.00 },
+                                { weight: '200g', price: 700.00 },
+                                { weight: '500G', price: 1700.00 }
+                            ]
+                        },
+
+                        // --- 💎 FRESH FROZEN 💎 ---
+                        {
+                            id: 'FRESH FROZEN🧊❄️',
+                            name: 'FRESH FROZEN🧊❄️',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            promoEligible: true,
+                            type: '💎 Fresh Frozen 💎',
+                            image: 'ProductFroz.jpg',
+                            video: 'VideoFroz.mov',
+                            videos: ['VideoFF.mp4','VideoGG.mp4'],
+                            description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nSTRAIN DISPO 🎨\n - Tropical.ODV 🌴 \n - GrappeGasoline 🍇 \n - ForbiddenFruit x FruitJoy 🍓 \n\n NEW DROP 2026/27 ✨✨',
+                            tarifs: [
+                                { weight: '5g', price: 70.00},
+                                { weight: '10g', price: 130.00},
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                                { weight: '100g', price: 870.00 },
+                                { weight: '200g', price: 1650.00 },
+                            ]
+                        }
+                    ]
+                },
             {
                 id: 'FULLMELT FARM',
                 name: '👨‍🌾 FULLMELT FARM 👨‍🌾',
@@ -169,8 +293,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         name: '90u PREMIUM ✨',
                         farm: '🧈 Golden Plants',
                         type: '90u 🍓',
-                        image: 'ProductGP.png',
-                        video: 'VideoGP.mov',
+                        image: 'ProductGP.jpg',
+                        video: 'VideoGP.mp4',
                         description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\STRAIN DISPONIBLE : \n\n - YellowRuntz 🍋 \n - Onionz 🧅 \n - BerryCake 🫐',
                         tarifs: [
                             { weight: '10g', price: 60.00},
@@ -235,10 +359,10 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: true,
                         type: '🔮 Plasma Static 🔮',
                         image: 'ProductOlive1.jpg',
-                        images: ['ProductOlive2.jpg'],
+                        images: ['ProductOlive2.jpg','ProductHB.jpg','ProductMM.jpg','ProductSP.jpg','ProductRR.jpg'],
                         video: 'VideoOlive1.mov',
-                        videos: ['VideoOlive2.mov','VideoOlive3.mov'],
-                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un produit d\'une pureté chirurgicale, sec et cassant, qui délivre une force de frappe immédiate. \n\n 🎨 STRAIN DISPO 🎨\n -MANDARINA Squeeze 🥶 \n - SuperBoof 😶‍🌫️ \n - HonneyBanana 🍌🍯\n - RainbowBelt 🍭\n - MandarinaSqueeze 🍊\n - ForbiddenFruit x SourDiesel 🍎⛽️ \n\n ⚠️ Pas pour les amateurs de fume ⛔️',
+                        videos: ['VideoOlive2.mov','VideoOlive3.mov','VideoHB.mov','VideoMM.mov','VideoSP.mov','VideoRR.mov'],
+                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un produit d\'une pureté chirurgicale, sec et cassant, qui délivre une force de frappe immédiate. \n\n 🎨 STRAIN DISPO 🎨\n -MANDARINA Squeeze 🥶 \n - SuperBoof 😶‍🌫️ \n - HonneyBanana 🍌🍯\n - RainbowBelt 🍭\n - MandarinaSqueeze 🍊\n - ForbiddenFruit x SourDiesel 🍎⛽️ \n  \n\n ⚠️ Pas pour les amateurs de fume ⛔️',
                         tarifs: [
                             { weight: '5g', price: 80.00 },
                             { weight: '10g', price: 150.00 },
@@ -272,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         farm: 'FULLMELTFARM 🍶',
                         promoEligible: true,
                         type: '💎 Fresh Frozen 💎',
-                        image: 'ProductFrozen2.png',
+                        image: 'ProductFrozen2.jpg',
                         video: 'VideoFrozen2.mp4',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Des notes épicées et umami avec un fond gaz lourd et persistant.',
                         tarifs: [
@@ -291,8 +415,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         farm: 'FULLMELTFARM 🍶',
                         promoEligible: true,
                         type: '💎 Fresh Frozen 💎',
-                        image: 'ProductMo.png',
-                        video: 'VideoMo.mov',
+                        image: 'ProductMo.jpg',
+                        video: 'VideoMo.mp4',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Le mariage parfait entre la douceur d\'une pêche juteuse et des notes épicées traditionnelles.',
                         tarifs: [
                             { weight: '5g', price: 70.00},
@@ -330,7 +454,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: true,
                         type: '💎 Fresh Frozen 💎',
                         image: 'ProductFrozen1.jpg',
-                        video: 'VideoFrozen1.mov',
+                        video: 'VideoFrozen1.mp4',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Cocktail de fruits tropicaux.',
                         tarifs: [
                             { weight: '5g', price: 70.00},
@@ -349,7 +473,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: true,
                         type: '💎 Fresh Frozen 💎',
                         image: 'ProductFrozen3.jpg',
-                        video: 'VideoFrozen3.mov',
+                        video: 'VideoFrozen3.mp4',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés. Arôme complexe et puissant de Garlic Cookies.',
                         tarifs: [
                             { weight: '5g', price: 70.00},
@@ -659,8 +783,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let lastType = ''; 
     
         filteredProducts.forEach(product => {
-            if (currentFarmId === 'FULLMELT FARM' && product.type !== lastType && product.type !== 'Promo') {
-                const separator = document.createElement('div');
+if ((currentFarmId === 'FULLMELT FARM' || currentFarmId === 'The Gaz SÉLECTION🇲🇦') && product.type !== lastType && product.type !== 'Promo') {                const separator = document.createElement('div');
                 separator.className = 'product-separator';
                 separator.innerHTML = `<span>${product.type}</span>`;
                 separator.style.cssText = `grid-column: 1 / -1; text-align: center; padding: 20px 0 10px 0; color: #f78900; font-family: 'Impact', sans-serif; font-size: 1.4rem; text-transform: uppercase; border-bottom: 1px solid rgba(247, 137, 0, 0.3); margin-bottom: 10px; width: 100%;`;
@@ -696,32 +819,62 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    function renderProductPage(productId) {
+  function renderProductPage(productId) {
         const product = getProductById(productId);
         if (!product) return;
 
+        // --- 1. UNIFICATION DES MÉDIAS ---
+        let mediaItems = [];
+
+        // Ajout de l'image principale
+        if (product.image) mediaItems.push({ type: 'image', src: product.image });
+        // Ajout des images secondaires
+        if (product.images && product.images.length > 0) {
+            product.images.forEach(img => mediaItems.push({ type: 'image', src: img }));
+        }
+
+        // Ajout de la vidéo principale
+        if (product.video) mediaItems.push({ type: 'video', src: product.video });
+        // Ajout des vidéos secondaires
+        if (product.videos && product.videos.length > 0) {
+            product.videos.forEach(vid => mediaItems.push({ type: 'video', src: vid }));
+        }
+
+        // --- 2. CRÉATION DU HTML (Carrousel Dynamique) ---
         let mediaHTML = '';
 
-        if (product.images && product.images.length > 0) {
-            const slides = product.images.map(img => `
-            <div class="carousel-slide">
-                <img src="${img}" alt="${product.name}">
-            </div>
-        `).join('');
+        if (mediaItems.length > 1) {
+            const slides = mediaItems.map(media => {
+                if (media.type === 'image') {
+                    return `
+                    <div class="carousel-slide">
+                        <img src="${media.src}" alt="${product.name}">
+                    </div>`;
+                } else {
+                    return `
+                    <div class="carousel-slide">
+                        <video src="${media.src}" controls></video>
+                    </div>`;
+                }
+            }).join('');
 
             mediaHTML = `
             <div class="carousel-container">
                 ${slides}
             </div>
-            <div class="carousel-hint">↔️ Swipe pour voir les photos</div>
-        `;
-        } else {
-            mediaHTML = `
-            <video class="product-video" poster="${product.image}" src="${product.video || ''}" ${product.video ? 'controls' : ''}></video>
-        `;
+            <div class="carousel-hint">↔️ Swipe pour voir la suite</div>
+            `;
+        } else if (mediaItems.length === 1) {
+            // Affichage unique si un seul média
+            if (mediaItems[0].type === 'image') {
+                mediaHTML = `<img src="${mediaItems[0].src}" alt="${product.name}" class="product-video" style="object-fit: cover;">`;
+            } else {
+                mediaHTML = `<video class="product-video" src="${mediaItems[0].src}" controls></video>`;
+            }
         }
 
         document.getElementById('product-page-title').innerText = product.name;
+        
         const detailsContainer = document.getElementById('product-details-content');
 
         const weightStyle = product.useSmallText ? 'font-size: 12px; line-height: 1.2;' : '';
