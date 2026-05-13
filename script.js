@@ -115,9 +115,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '24K 🏆',
                             farm: 'The Gaz SÉLECTION 🇲🇦',
                             type: '🔮 Plasma Static 🔮',
-                            image: 'ProductRB.png',
-                            video: 'VideoRB.mp4',
-                            description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nPureté absolue, texture sèche et cassante. Profil aromatique d\'agrumes intenses avec une touche terreuse.\n\n⚠️ Réservé aux amateurs avertis.',
+                            image: 'Product24.png',
+                            video: 'Video24.mp4',
+                            description: '',
                             tarifs: [
                                 { weight: '5g', price: 80.00 },
                                 { weight: '10g', price: 150.00 },
@@ -262,17 +262,52 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
 
-                        // --- 💎 FRESH FROZEN 💎 ---
+               // --- 💎 FRESH FROZEN (Séparés par Strain) 💎 ---
                         {
-                            id: 'FRESH FROZEN🧊❄️',
-                            name: 'FRESH FROZEN🧊❄️',
+                            id: 'TROPICAL ODV 🌴',
+                            name: 'TROPICAL ODV 🌴',
                             farm: 'The Gaz SÉLECTION 🇲🇦',
                             promoEligible: true,
                             type: '💎 Fresh Frozen 💎',
                             image: 'ProductFroz.jpg',
                             video: 'VideoFroz.mov',
-                            videos: ['VideoFF.mp4','VideoGG.mp4'],
-                            description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nSTRAIN DISPO 🎨\n - Tropical.ODV 🌴 \n - GrappeGasoline 🍇 \n - ForbiddenFruit x FruitJoy 🍓 \n\n NEW DROP 2026/27 ✨✨',
+                            description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nNotes exotiques et tropicales intenses. \n\n NEW DROP 2026/27 ✨✨',
+                            tarifs: [
+                                { weight: '5g', price: 70.00},
+                                { weight: '10g', price: 130.00},
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                                { weight: '100g', price: 870.00 },
+                                { weight: '200g', price: 1650.00 },
+                            ]
+                        },
+                        {
+                            id: 'FF GRAPE GASOLINE 🍇',
+                            name: 'GRAPE GASOLINE 🍇',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            promoEligible: true,
+                            type: '💎 Fresh Frozen 💎',
+                            image: 'ProductGG.png', // Tu pourras changer l'image plus tard
+                            video: 'VideoGG.mp4',
+                            description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUn fond de raisin fermenté couplé à un gaz lourd et persistant. \n\n NEW DROP 2026/27 ✨✨',
+                            tarifs: [
+                                { weight: '5g', price: 70.00},
+                                { weight: '10g', price: 130.00},
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                                { weight: '100g', price: 870.00 },
+                                { weight: '200g', price: 1650.00 },
+                            ]
+                        },
+                        {
+                            id: 'FF FORBIDDEN FRUIT x FRUIT JOY 🍓',
+                            name: 'FORBIDDEN x FRUIT JOY 🍓',
+                            farm: 'The Gaz SÉLECTION 🇲🇦',
+                            promoEligible: true,
+                            type: '💎 Fresh Frozen 💎',
+                            image: 'ProductFF.png', 
+                            video: 'VideoFF.mov',
+                            description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nCocktail ultime de fruits rouges et de baies sauvages. \n\n NEW DROP 2026/27 ✨✨',
                             tarifs: [
                                 { weight: '5g', price: 70.00},
                                 { weight: '10g', price: 130.00},
@@ -352,17 +387,16 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '100g', price: 380.00, oldPrice: 400.00 },
                         ]
                     },
+                   // --- 🔮 PLASMA STATIC (Séparés par Strain) 🔮 ---
                     {
-                        id: '🆕 PlasmaStatic⚡️',
-                        name: '🆕 PlasmaStatic ⚡️',
+                        id: 'PLASMA HONNEY BANANA 🍌🍯',
+                        name: 'HONNEY BANANA 🍌🍯',
                         farm: 'FULLMELTFARM 🍶',
                         promoEligible: true,
                         type: '🔮 Plasma Static 🔮',
-                        image: 'ProductOlive1.jpg',
-                        images: ['ProductOlive2.jpg','ProductHB.jpg','ProductMM.jpg','ProductSP.jpg','ProductRR.jpg'],
-                        video: 'VideoOlive1.mov',
-                        videos: ['VideoOlive2.mov','VideoOlive3.mov','VideoHB.mov','VideoMM.mov','VideoSP.mov','VideoRR.mov'],
-                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un produit d\'une pureté chirurgicale, sec et cassant, qui délivre une force de frappe immédiate. \n\n 🎨 STRAIN DISPO 🎨\n -MANDARINA Squeeze 🥶 \n - SuperBoof 😶‍🌫️ \n - HonneyBanana 🍌🍯\n - RainbowBelt 🍭\n - MandarinaSqueeze 🍊\n - ForbiddenFruit x SourDiesel 🍎⛽️ \n  \n\n ⚠️ Pas pour les amateurs de fume ⛔️',
+                        image: 'ProductHB.jpg',
+                        video: 'VideoHB.mp4',
+                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un produit d\'une pureté chirurgicale, sec et cassant.\n\n⚠️ Pas pour les amateurs de fume ⛔️',
                         tarifs: [
                             { weight: '5g', price: 80.00 },
                             { weight: '10g', price: 150.00 },
@@ -373,6 +407,84 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '500g', price: 4350.00 },
                         ]
                     },
+                    {
+                        id: 'PLASMA MANDARINA SQUEEZE 🍊',
+                        name: 'MANDARINA SQUEEZE 🍊',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '🔮 Plasma Static 🔮',
+                        image: 'ProductMM.jpg',
+                        video: 'VideoMM.mp4',
+                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Explosion d\'agrumes et pureté chirurgicale.\n\n⚠️ Pas pour les amateurs de fume ⛔️',
+                        tarifs: [
+                            { weight: '5g', price: 80.00 },
+                            { weight: '10g', price: 150.00 },
+                            { weight: '25g', price: 320.00 },
+                            { weight: '50g', price: 570.00},
+                            { weight: '100g', price: 1050.00 },
+                            { weight: '200g', price: 1950.00 },
+                            { weight: '500g', price: 4350.00 },
+                        ]
+                    },
+                    {
+                        id: 'PLASMA SUPERBOOF 😶‍🌫️',
+                        name: 'SUPERBOOF 😶‍🌫️',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '🔮 Plasma Static 🔮',
+                        image: 'ProductSP.jpg',
+                        video: 'VideoSP.mp4',
+                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Une force de frappe immédiate et un goût indescriptible.\n\n⚠️ Pas pour les amateurs de fume ⛔️',
+                        tarifs: [
+                            { weight: '5g', price: 80.00 },
+                            { weight: '10g', price: 150.00 },
+                            { weight: '25g', price: 320.00 },
+                            { weight: '50g', price: 570.00},
+                            { weight: '100g', price: 1050.00 },
+                            { weight: '200g', price: 1950.00 },
+                            { weight: '500g', price: 4350.00 },
+                        ]
+                    },
+                    {
+                        id: 'PLASMA RAINBOW BELT 🍭',
+                        name: 'RAINBOW BELT 🍭',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '🔮 Plasma Static 🔮',
+                        image: 'ProductRR.jpg',
+                        video: 'VideoRR.mp4',
+                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un profil terpénique de bonbon acidulé.\n\n⚠️ Pas pour les amateurs de fume ⛔️',
+                        tarifs: [
+                            { weight: '5g', price: 80.00 },
+                            { weight: '10g', price: 150.00 },
+                            { weight: '25g', price: 320.00 },
+                            { weight: '50g', price: 570.00},
+                            { weight: '100g', price: 1050.00 },
+                            { weight: '200g', price: 1950.00 },
+                            { weight: '500g', price: 4350.00 },
+                        ]
+                    },
+                  /*   {
+                        id: ' FORBIDDEN FRUIT x SOUR DIESEL 🍎⛽️',
+                        name: 'FORBIDDEN FRUIT x SOUR DIESEL 🍎⛽️',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '🔮 Plasma Static 🔮',
+                        image: 'ProductOlive1.jpg',
+                        video: 'VideoOlive1.mov',
+                        description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. L\'équilibre parfait entre le fruit rouge et le gaz lourd.\n\n⚠️ Pas pour les amateurs de fume ⛔️',
+                        tarifs: [
+                            { weight: '5g', price: 80.00 },
+                            { weight: '10g', price: 150.00 },
+                            { weight: '25g', price: 320.00 },
+                            { weight: '50g', price: 570.00},
+                            { weight: '100g', price: 1050.00 },
+                            { weight: '200g', price: 1950.00 },
+                            { weight: '500g', price: 4350.00 },
+                        ]
+                    }, */
+
+
                     {
                         id: '🆕 Cylindre Plasma',
                         name: '🆕 Cylindre Plasma ⚡️',
@@ -428,7 +540,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '500g', price: 3200.00 },
                         ]
                     },
-                    {
+                 /*    {
                         id: 'GRAPE GAZ 🍇',
                         name: 'GRAPE GAZ 🍇',
                         farm: 'FULLMELTFARM 🍶',
@@ -446,7 +558,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '200g', price: 1350.00 },
                             { weight: '500g', price: 3200.00 },
                         ]
-                    },
+                    }, */
                     {
                         id: 'FRUIT JOY 🥭',
                         name: 'FRUIT JOY 🥭',
