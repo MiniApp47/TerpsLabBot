@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '200g', price: 900.00 },
                             ]
                         },
-                        {
+                      /*   {
                             id: '120u PARMESAN COOKIES 🍪',
                             name: '120u PARMESAN COOKIES 🍪',
                             farm: 'The Gaz SÉLECTION 🇲🇦',
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 250.00 },
                                 { weight: '100g', price: 480.00 }
                             ]
-                        },
+                        }, */
 
                         // --- 🍓 90u ---
                         {
@@ -485,7 +485,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     }, */
 
 
-                    {
+                   /*  {
                         id: '🆕 Cylindre Plasma',
                         name: '🆕 Cylindre Plasma ⚡️',
                         farm: 'FULLMELTFARM 🍶',
@@ -501,7 +501,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '100g', price: 1000.00 },
                             { weight: '200g', price: 1950.00 },
                         ]
-                    },
+                    }, */
                     {
                         id: 'HashBurger 🍔',
                         name: 'HashBurger 🍔',
