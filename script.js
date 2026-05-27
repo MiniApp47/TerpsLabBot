@@ -121,9 +121,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '5g', price: 80.00 },
                                 { weight: '10g', price: 150.00 },
-                                { weight: '25g', price: 320.00 },
-                                { weight: '50g', price: 600.00 },
-                                { weight: '100g', price: 1100.00 },
+                                { weight: '25g', price: 280.00 },
+                                { weight: '50g', price: 520.00 },
+                                { weight: '100g', price: 950.00 },
+                                { weight: '200g', price: 1850.00 },
                             ]
                         },
                         {
@@ -137,9 +138,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '5g', price: 80.00 },
                                 { weight: '10g', price: 150.00 },
-                                { weight: '25g', price: 320.00 },
-                                { weight: '50g', price: 600.00 },
-                                { weight: '100g', price: 1100.00 },
+                                { weight: '25g', price: 280.00 },
+                                { weight: '50g', price: 520.00 },
+                                { weight: '100g', price: 950.00 },
+                                { weight: '200g', price: 1850.00 },
                             ]
                         },
 
@@ -273,12 +275,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFroz.mov',
                             description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nNotes exotiques et tropicales intenses. \n\n NEW DROP 2026/27 ✨✨',
                             tarifs: [
-                                { weight: '5g', price: 70.00},
-                                { weight: '10g', price: 130.00},
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 870.00 },
-                                { weight: '200g', price: 1650.00 },
+                                { weight: '5g', price: 60.00},
+                                { weight: '10g', price: 100.00},
+                                { weight: '25g', price: 220.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 800.00 },
+                                { weight: '200g', price: 1500.00 },
                             ]
                         },
                         {
@@ -291,12 +293,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoGG.mp4',
                             description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUn fond de raisin fermenté couplé à un gaz lourd et persistant. \n\n NEW DROP 2026/27 ✨✨',
                             tarifs: [
-                                { weight: '5g', price: 70.00},
-                                { weight: '10g', price: 130.00},
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 870.00 },
-                                { weight: '200g', price: 1650.00 },
+                                { weight: '5g', price: 60.00},
+                                { weight: '10g', price: 100.00},
+                                { weight: '25g', price: 220.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 800.00 },
+                                { weight: '200g', price: 1500.00 },
                             ]
                         },
                         {
@@ -309,12 +311,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFF.mov',
                             description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nCocktail ultime de fruits rouges et de baies sauvages. \n\n NEW DROP 2026/27 ✨✨',
                             tarifs: [
-                                { weight: '5g', price: 70.00},
-                                { weight: '10g', price: 130.00},
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 870.00 },
-                                { weight: '200g', price: 1650.00 },
+                                { weight: '5g', price: 60.00},
+                                { weight: '10g', price: 100.00},
+                                { weight: '25g', price: 220.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 800.00 },
+                                { weight: '200g', price: 1500.00 },
                             ]
                         }
                     ]
@@ -398,13 +400,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoHB.mp4',
                         description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un produit d\'une pureté chirurgicale, sec et cassant.\n\n⚠️ Pas pour les amateurs de fume ⛔️',
                         tarifs: [
-                            { weight: '5g', price: 80.00 },
-                            { weight: '10g', price: 150.00 },
-                            { weight: '25g', price: 320.00 },
-                            { weight: '50g', price: 570.00},
-                            { weight: '100g', price: 1050.00 },
-                            { weight: '200g', price: 1950.00 },
-                            { weight: '500g', price: 4350.00 },
+                            { weight: '5g', price: 70.00 },
+                            { weight: '10g', price: 130.00 },
+                            { weight: '25g', price: 260.00 },
+                            { weight: '50g', price: 500.00},
+                            { weight: '100g', price: 950.00 },
+                            { weight: '200g', price: 1850.00 },
                         ]
                     },
                     {
@@ -417,13 +418,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoMM.mp4',
                         description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Explosion d\'agrumes et pureté chirurgicale.\n\n⚠️ Pas pour les amateurs de fume ⛔️',
                         tarifs: [
-                            { weight: '5g', price: 80.00 },
-                            { weight: '10g', price: 150.00 },
-                            { weight: '25g', price: 320.00 },
-                            { weight: '50g', price: 570.00},
-                            { weight: '100g', price: 1050.00 },
-                            { weight: '200g', price: 1950.00 },
-                            { weight: '500g', price: 4350.00 },
+                            { weight: '5g', price: 70.00 },
+                            { weight: '10g', price: 130.00 },
+                            { weight: '25g', price: 260.00 },
+                            { weight: '50g', price: 500.00},
+                            { weight: '100g', price: 950.00 },
+                            { weight: '200g', price: 1850.00 },
                         ]
                     },
                     {
@@ -436,13 +436,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoSP.mp4',
                         description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Une force de frappe immédiate et un goût indescriptible.\n\n⚠️ Pas pour les amateurs de fume ⛔️',
                         tarifs: [
-                            { weight: '5g', price: 80.00 },
-                            { weight: '10g', price: 150.00 },
-                            { weight: '25g', price: 320.00 },
-                            { weight: '50g', price: 570.00},
-                            { weight: '100g', price: 1050.00 },
-                            { weight: '200g', price: 1950.00 },
-                            { weight: '500g', price: 4350.00 },
+                            { weight: '5g', price: 70.00 },
+                            { weight: '10g', price: 130.00 },
+                            { weight: '25g', price: 260.00 },
+                            { weight: '50g', price: 500.00},
+                            { weight: '100g', price: 950.00 },
+                            { weight: '200g', price: 1850.00 },
                         ]
                     },
                     {
@@ -455,13 +454,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoRR.mp4',
                         description: '🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLe futur de l\'extraction. Un profil terpénique de bonbon acidulé.\n\n⚠️ Pas pour les amateurs de fume ⛔️',
                         tarifs: [
-                            { weight: '5g', price: 80.00 },
-                            { weight: '10g', price: 150.00 },
-                            { weight: '25g', price: 320.00 },
-                            { weight: '50g', price: 570.00},
-                            { weight: '100g', price: 1050.00 },
-                            { weight: '200g', price: 1950.00 },
-                            { weight: '500g', price: 4350.00 },
+                            { weight: '5g', price: 70.00 },
+                            { weight: '10g', price: 130.00 },
+                            { weight: '25g', price: 260.00 },
+                            { weight: '50g', price: 500.00},
+                            { weight: '100g', price: 950.00 },
+                            { weight: '200g', price: 1850.00 },
                         ]
                     },
                   /*   {
@@ -512,13 +510,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoFrozen2.mp4',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Des notes épicées et umami avec un fond gaz lourd et persistant.',
                         tarifs: [
-                            { weight: '5g', price: 70.00},
-                            { weight: '10g', price: 120.00},
-                            { weight: '25g', price: 240.00 },
-                            { weight: '50g', price: 420.00 },
+                            { weight: '5g', price: 50.00},
+                            { weight: '10g', price: 90.00},
+                            { weight: '25g', price: 200.00 },
+                            { weight: '50g', price: 390.00 },
                             { weight: '100g', price: 750.00 },
-                            { weight: '200g', price: 1350.00 },
-                            { weight: '500g', price: 3200.00 },
+                            { weight: '200g', price: 1400.00 },
                         ]
                     },
                     {
@@ -531,13 +528,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoMo.mp4',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Le mariage parfait entre la douceur d\'une pêche juteuse et des notes épicées traditionnelles.',
                         tarifs: [
-                            { weight: '5g', price: 70.00},
-                            { weight: '10g', price: 120.00},
-                            { weight: '25g', price: 240.00 },
-                            { weight: '50g', price: 420.00 },
+                            { weight: '5g', price: 50.00},
+                            { weight: '10g', price: 90.00},
+                            { weight: '25g', price: 200.00 },
+                            { weight: '50g', price: 390.00 },
                             { weight: '100g', price: 750.00 },
-                            { weight: '200g', price: 1350.00 },
-                            { weight: '500g', price: 3200.00 },
+                            { weight: '200g', price: 1400.00 },
                         ]
                     },
                  /*    {
@@ -569,13 +565,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoFrozen1.mp4',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés à la perfection. Cocktail de fruits tropicaux.',
                         tarifs: [
-                            { weight: '5g', price: 70.00},
-                            { weight: '10g', price: 120.00},
-                            { weight: '25g', price: 240.00 },
-                            { weight: '50g', price: 420.00 },
+                            { weight: '5g', price: 50.00},
+                            { weight: '10g', price: 90.00},
+                            { weight: '25g', price: 200.00 },
+                            { weight: '50g', price: 390.00 },
                             { weight: '100g', price: 750.00 },
-                            { weight: '200g', price: 1350.00 },
-                            { weight: '500g', price: 3200.00 },
+                            { weight: '200g', price: 1400.00 },
                         ]
                     },
                     {
@@ -588,13 +583,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         video: 'VideoFrozen3.mp4',
                         description: '💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne texture cristalline et des arômes préservés. Arôme complexe et puissant de Garlic Cookies.',
                         tarifs: [
-                            { weight: '5g', price: 70.00},
-                            { weight: '10g', price: 120.00},
-                            { weight: '25g', price: 240.00 },
-                            { weight: '50g', price: 420.00 },
+                            { weight: '5g', price: 50.00},
+                            { weight: '10g', price: 90.00},
+                            { weight: '25g', price: 200.00 },
+                            { weight: '50g', price: 390.00 },
                             { weight: '100g', price: 750.00 },
-                            { weight: '200g', price: 1350.00 },
-                            { weight: '500g', price: 3200.00 },
+                            { weight: '200g', price: 1400.00 },
                         ]
                     }
                 ]
@@ -608,20 +602,19 @@ document.addEventListener('DOMContentLoaded', function () {
         image: 'CategWeed.png', 
         products: [
             {
-                id: 'Sunset Sherbet 🌅',
-                name: 'Sunset Sherbet 🌅',
+                id: 'LemonC herry Gelato 🌅',
+                name: 'LemonCherryGelato🍋🍒',
                 farm: 'CALI NO BRAND ™️©️',
                 promoEligible: true,
                 type: 'Weed',
                 image: 'ProductShe.jpg',
-                video: 'VideoShe.mov',
-                description: '🇨🇦 CALI CANADA IMPORT 🇨🇦\n\nDirectement issue de notre nouveau drop 2026/27. Des buds denses, givrées et une manucure parfaite. \n🌅 Sunset : Notes de sorbet et fruits rouges.',
+                video: 'VideoShe.mp4',
+                description: '🇨🇦 CALI CANADA IMPORT 🇨🇦\n\nUn classique moderne incontournable. Des buds ultra-denses, givrées de trichomes et parfaitement manucurées.\n\n🍋🍒 Saveur : Le mariage parfait entre l\'acidité du citron, la douceur de la cerise et la rondeur crémeuse de la famille Gelato.\n🧠 Effet : Profonde relaxation corporelle avec un high cérébral euphorique.',
                 tarifs: [
-                    { weight: '10g', price: 80.00 },
-                    { weight: '25g', price: 160.00 },
-                    { weight: '50g', price: 300.00},
-                    { weight: '100g', price: 570.00 },
-                    { weight: '200g', price: 1000.00 },
+                    { weight: '10g', price: 70.00 },
+                    { weight: '25g', price: 150.00 },
+                    { weight: '50g', price: 280.00},
+                    { weight: '100g', price: 500.00 },
                 ]
             },  
             {
