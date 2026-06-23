@@ -391,6 +391,60 @@ document.addEventListener('DOMContentLoaded', function () {
                     },
                    // --- 🔮 PLASMA STATIC (Séparés par Strain) 🔮 ---
                     {
+                        id: 'PLASMA SPRITZER 🍋‍🟩',
+                        name: 'SPRITZER 🍋‍🟩',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '🔮 Plasma Static 🔮',
+                        image: 'ProductSpi.png',
+                        video: 'VideoSpi.mov',
+                        description: '',
+                        tarifs: [
+                            { weight: '5g', price: 70.00 },
+                            { weight: '10g', price: 130.00 },
+                            { weight: '25g', price: 260.00 },
+                            { weight: '50g', price: 500.00},
+                            { weight: '100g', price: 950.00 },
+                            { weight: '200g', price: 1850.00 },
+                        ]
+                    },
+                    {
+                        id: 'PLASMA MOTORS BREATH 🏍️🔥',
+                        name: 'MOTORS BREATH 🏍️🔥',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '🔮 Plasma Static 🔮',
+                        image: 'ProductMB.png',
+                        video: 'VideoMB.mov',
+                        description: '',
+                        tarifs: [
+                            { weight: '5g', price: 70.00 },
+                            { weight: '10g', price: 130.00 },
+                            { weight: '25g', price: 260.00 },
+                            { weight: '50g', price: 500.00},
+                            { weight: '100g', price: 950.00 },
+                            { weight: '200g', price: 1850.00 },
+                        ]
+                    },
+                    {
+                        id: 'PLASMA RUNTZ MUFFIN 🧬🧁',
+                        name: 'RUNTZ MUFFIN 🧬🧁',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '🔮 Plasma Static 🔮',
+                        image: 'ProductRM.png',
+                        video: 'VideoRM.mov',
+                        description: '',
+                        tarifs: [
+                            { weight: '5g', price: 70.00 },
+                            { weight: '10g', price: 130.00 },
+                            { weight: '25g', price: 260.00 },
+                            { weight: '50g', price: 500.00},
+                            { weight: '100g', price: 950.00 },
+                            { weight: '200g', price: 1850.00 },
+                        ]
+                    },
+                    {
                         id: 'PLASMA HONNEY BANANA 🍌🍯',
                         name: 'HONNEY BANANA 🍌🍯',
                         farm: 'FULLMELTFARM 🍶',
@@ -501,6 +555,96 @@ document.addEventListener('DOMContentLoaded', function () {
                         ]
                     }, */
                     {
+                        id: 'GAPPE GAZOLINE 🍇⛽️',
+                        name: 'GAPPE GAZOLINE 🍇⛽️',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductGGG.png',
+                        video: 'VideoGG.mov',
+                        description: '',
+                        tarifs: [
+                            { weight: '5g', price: 60.00},
+                            { weight: '10g', price: 100.00},
+                            { weight: '25g', price: 220.00 },
+                            { weight: '50g', price: 400.00 },
+                            { weight: '100g', price: 750.00 },
+                            { weight: '200g', price: 1400.00 },
+                        ]
+                    },
+                    {
+                        id: 'GARLIC COOKIES 🍪⚡️',
+                        name: 'GARLIC COOKIES 🍪⚡️',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductGC.png',
+                        video: 'VideoGC.mov',
+                        description: '',
+                        tarifs: [
+                            { weight: '5g', price: 60.00},
+                            { weight: '10g', price: 100.00},
+                            { weight: '25g', price: 220.00 },
+                            { weight: '50g', price: 400.00 },
+                            { weight: '100g', price: 750.00 },
+                            { weight: '200g', price: 1400.00 },
+                        ]
+                    },
+                    {
+                        id: 'ORANGE BLOODS 🍊',
+                        name: 'ORANGE BLOODS 🍊',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductOB.png',
+                        video: 'VideoOB.mov',
+                        description: '',
+                        tarifs: [
+                            { weight: '5g', price: 60.00},
+                            { weight: '10g', price: 100.00},
+                            { weight: '25g', price: 220.00 },
+                            { weight: '50g', price: 400.00 },
+                            { weight: '100g', price: 750.00 },
+                            { weight: '200g', price: 1400.00 },
+                        ]
+                    },
+                    {
+                        id: 'ZKITTLES 🍭',
+                        name: 'ZKITTLES 🍭',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductZi.png',
+                        video: 'VideoZi.mov',
+                        description: '',
+                        tarifs: [
+                            { weight: '5g', price: 60.00},
+                            { weight: '10g', price: 100.00},
+                            { weight: '25g', price: 220.00 },
+                            { weight: '50g', price: 400.00 },
+                            { weight: '100g', price: 750.00 },
+                            { weight: '200g', price: 1400.00 },
+                        ]
+                    },
+                    {
+                        id: 'FORBIDEN FRUIT 🍍🫐',
+                        name: 'FORBIDEN FRUIT 🍍🫐',
+                        farm: 'FULLMELTFARM 🍶',
+                        promoEligible: true,
+                        type: '💎 Fresh Frozen 💎',
+                        image: 'ProductFFF.png',
+                        video: 'VideoFF.mov',
+                        description: '',
+                        tarifs: [
+                            { weight: '5g', price: 60.00},
+                            { weight: '10g', price: 100.00},
+                            { weight: '25g', price: 220.00 },
+                            { weight: '50g', price: 400.00 },
+                            { weight: '100g', price: 750.00 },
+                            { weight: '200g', price: 1400.00 },
+                        ]
+                    },
+                    {
                         id: 'HashBurger 🍔',
                         name: 'HashBurger 🍔',
                         farm: 'FULLMELTFARM 🍶',
@@ -573,7 +717,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '200g', price: 1400.00 },
                         ]
                     },
-                    {
+                   /*  {
                         id: 'GARLIC COOKIES 🍪',
                         name: 'GARLIC COOKIES 🍪',
                         farm: 'FULLMELTFARM 🍶',
@@ -590,9 +734,61 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '100g', price: 750.00 },
                             { weight: '200g', price: 1400.00 },
                         ]
-                    }
+                    } */
                 ]
-            }
+            },
+            {
+                id: '🇺🇸 DROP USA 🇺🇸',
+                name: '🇺🇸 DROP USA 🇺🇸',
+                products: [
+                    {
+                        id: 'PERMANENT GAZ 🥶⛽️',
+                        name: 'PERMANENT GAZ 🥶⛽️',
+                        farm: '🇺🇸 SAHA TERPS 🧪',
+                        type: '🔍 Static Sift 🔍',
+                        image: 'ProductPG.png',
+                        video: 'VideoPG.mov',
+                        description: '⚠️A CONSOMMER AVEC MODÉRATION PRODUIT DE GRANDE ENVERGURE ⚠️',
+                        tarifs: [
+                            { weight: '1g', price: 40.00},
+                            { weight: '2g', price: 70.00},
+                            { weight: '5g', price: 170.00 },
+                            { weight: '10g', price: 320.00 },
+                        ]
+                    },
+                      {
+                        id: 'HASH BURGER 🍔💎',
+                        name: 'HASH BURGER 🍔💎',
+                        farm: '🇺🇸 WESTCOAST STATIC ⚡️',
+                        type: '🔍 Static Sift 🔍',
+                        image: 'ProductHH.png',
+                        video: 'VideoHH.mov',
+                        description: '⚠️A CONSOMMER AVEC MODÉRATION PRODUIT DE GRANDE ENVERGURE ⚠️',
+                        tarifs: [
+                            { weight: '1g', price: 50.00},
+                            { weight: '2g', price: 90.00},
+                            { weight: '5g', price: 180.00 },
+                            { weight: '10g', price: 340.00 },
+                        ]
+                    },
+                    {
+                        id: 'WeFlips x Terps 🔌',
+                        name: 'WeFlips x Terps 🔌',
+                        farm: '🇺🇸 WE FLIPS FARMZ 🥶',
+                        type: '🔍 Static Sift 🔍',
+                        image: 'ProductWT.png',
+                        video: 'VideoWT.mov',
+                        description: '⚠️A CONSOMMER AVEC MODÉRATION PRODUIT DE GRANDE ENVERGURE ⚠️ \n\n STRAIN DISPONIBLE : \n\n - JEALOUSY 🥝 \n - ESTATHE 🧃',
+                        tarifs: [
+                            { weight: '1g', price: 50.00},
+                            { weight: '2g', price: 90.00},
+                            { weight: '5g', price: 180.00 },
+                            { weight: '10g', price: 340.00 },
+                        ]
+                    },
+                ]
+            },
+
         ]
     },
     {
