@@ -411,7 +411,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "500g", price: 1700.0 },
               ],
             },
-            {
+           /*  {
               id: "BERRY CAKE 🎂🫐",
               name: "BERRY CAKE 🎂🫐",
               farm: "FULLMELTFARM 🍶",
@@ -460,7 +460,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50g", price: 220.0 },
                 { weight: "100g", price: 380.0, oldPrice: 400.0 },
               ],
-            },
+            }, */
             // --- 🔮 PLASMA STATIC (Séparés par Strain) 🔮 ---
             {
               id: "PLASMA RUNTZ 🧬",
@@ -614,7 +614,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "200g", price: 1850.0 },
               ],
             },
-            {
+           /*  {
               id: "PLASMA HONNEY BANANA 🍌🍯",
               name: "HONNEY BANANA 🍌🍯",
               farm: "FULLMELTFARM 🍶",
@@ -689,7 +689,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 950.0 },
                 { weight: "200g", price: 1850.0 },
               ],
-            },
+            }, */
             /*   {
                         id: ' FORBIDDEN FRUIT x SOUR DIESEL 🍎⛽️',
                         name: 'FORBIDDEN FRUIT x SOUR DIESEL 🍎⛽️',
@@ -822,7 +822,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "200g", price: 1400.0 },
               ],
             },
-            {
+            /* {
               id: "HashBurger 🍔",
               name: "HashBurger 🍔",
               farm: "FULLMELTFARM 🍶",
@@ -859,7 +859,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 750.0 },
                 { weight: "200g", price: 1400.0 },
               ],
-            },
+            }, */
             /*    {
                         id: 'GRAPE GAZ 🍇',
                         name: 'GRAPE GAZ 🍇',
@@ -879,7 +879,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             { weight: '500g', price: 3200.00 },
                         ]
                     }, */
-            {
+           /*  {
               id: "FRUIT JOY 🥭",
               name: "FRUIT JOY 🥭",
               farm: "FULLMELTFARM 🍶",
@@ -897,7 +897,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 750.0 },
                 { weight: "200g", price: 1400.0 },
               ],
-            },
+            }, */
             /*  {
                         id: 'GARLIC COOKIES 🍪',
                         name: 'GARLIC COOKIES 🍪',
@@ -1064,6 +1064,80 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50g", price: 400.0 },
                 { weight: "100g", price: 760.0 },
                 { weight: "200g", price: 1400.0 },
+              ],
+            },
+          ],
+        },
+        {
+          id: "OperaTerps 🇲🇦",
+          name: "OperaTerps 🇲🇦",
+          products: [
+            {
+              id: "BANANA PUNCH 🍌🔥",
+              name: "BANANA PUNCH 🍌🔥",
+              farm: "OperaTerps 🇲🇦",
+              type: "90u 🍓",
+              image: "ProductBNN.png",
+              video: "VideoBNN.mov",
+              description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nL\'alliance parfaite entre la rondeur d\'une banane bien mûre et un fond épicé percutant. Texture onctueuse et montée cérébrale immédiate.',
+              tarifs: [
+                { weight: "10g", price: 60.0 },
+                { weight: "25g", price: 120.0 },
+                { weight: "50g", price: 200.0 },
+                { weight: "100g", price: 380.0 },
+                { weight: "200g", price: 700.0 },
+                { weight: "500g", price: 1700.0 },
+              ],
+            },
+            {
+              id: "CÉRÉALE MILK 🌾🥛",
+              name: "CÉRÉALE MILK 🌾🥛",
+              farm: "OperaTerps 🇲🇦",
+              type: "90u 🍓",
+              image: "ProductC.png",
+              video: "VideoC.mov",
+              description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUn profil terpénique ultra-gourmand rappelant un bol de céréales fruitées baignant dans du lait vanillé. Résine très grasse et effet profondément apaisant.',
+              tarifs: [
+                { weight: "10g", price: 60.0 },
+                { weight: "25g", price: 120.0 },
+                { weight: "50g", price: 200.0 },
+                { weight: "100g", price: 380.0 },
+                { weight: "200g", price: 700.0 },
+                { weight: "500g", price: 1700.0 },
+              ],
+            },
+            {
+              id: "CHERRY PIE 🍒",
+              name: "CHERRY PIE 🍒",
+              farm: "OperaTerps 🇲🇦",
+              type: "90u 🍓",
+              image: "ProductChe.png",
+              video: "VideoChe.mov",
+              description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nDes arômes envoûtants de tarte aux cerises tout juste sortie du four. L\'équilibre idéal entre la douceur fruitée et une légère note acidulée.',
+              tarifs: [
+                { weight: "10g", price: 60.0 },
+                { weight: "25g", price: 120.0 },
+                { weight: "50g", price: 200.0 },
+                { weight: "100g", price: 380.0 },
+                { weight: "200g", price: 700.0 },
+                { weight: "500g", price: 1700.0 },
+              ],
+            },
+            {
+              id: "STRAWBERRY CAKE 🍓🍰",
+              name: "STRAWBERRY CAKE 🍓🍰",
+              farm: "OperaTerps 🇲🇦",
+              type: "90u 🍓",
+              image: "ProductSt.png",
+              video: "VideoSt.mov",
+              description: '🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne véritable pâtisserie en bouche. Des notes intenses de fraises fraîches enrobées d\'une crème sucrée. Un délice absolu pour les chasseurs de terps.',
+              tarifs: [
+                { weight: "10g", price: 60.0 },
+                { weight: "25g", price: 120.0 },
+                { weight: "50g", price: 200.0 },
+                { weight: "100g", price: 380.0 },
+                { weight: "200g", price: 700.0 },
+                { weight: "500g", price: 1700.0 },
               ],
             },
           ],
