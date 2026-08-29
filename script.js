@@ -325,8 +325,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "GAZOLINA ⛽️",
               farm: "FULLMELTFARM 🍶",
               type: "90u 🍓",
-              image: "ProductGZO.png",
-              video: "VideoGZO.mov",
+              image: "Product90.jpg",
+              video: "Video90.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUn concentré de gaz pur. Une extraction ultra-grasse qui libère des arômes de carburant intense dès l'ouverture.",
               tarifs: [
@@ -343,8 +343,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "FRUITY 🍉",
               farm: "FULLMELTFARM 🍶",
               type: "90u 🍓",
-              image: "ProductFR.png",
-              video: "VideoFR.mov",
+              image: "Product90.jpg",
+              video: "Video90.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne explosion de fruits rouges et de pastèque juteuse. Texture crémeuse et profil terpénique extrêmement gourmand.",
               tarifs: [
@@ -361,8 +361,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "PAPAYA 🥭",
               farm: "FULLMELTFARM 🍶",
               type: "90u 🍓",
-              image: "ProductPA.png",
-              video: "VideoPA.mov",
+              image: "Product90.jpg",
+              video: "Video90.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nLe roi du tropical ! Une odeur puissante de mangue et papaye mûre. Texture collante parfaite pour vos sessions.",
               tarifs: [
@@ -449,8 +449,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "💎 Fresh Frozen 💎",
-              image: "ProductFA.png",
-              video: "VideoFA.mov",
+              image: "ProductFF.jpg",
+              video: "VideoFFF.mov",
               description:
                   "💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne vague d'açaï glacé, de fruits noirs et de citron frais. Un profil crémeux, acidulé et parfaitement équilibré.\n\nNEW DROP 2026/27 ✨✨",
               tarifs: [
@@ -468,8 +468,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "💎 Fresh Frozen 💎",
-              image: "ProductOM.png",
-              video: "VideoOM.mov",
+              image: "ProductFF.jpg",
+              video: "VideoFFF.mov",
               description:
                  "💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nDes zestes d'orange fraîche accompagnés d'une crème vanillée et lactée. Un mélange fruité et gourmand avec une rondeur exceptionnelle.\n\nNEW DROP 2026/27 ✨✨",
               tarifs: [
@@ -487,8 +487,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "💎 Fresh Frozen 💎",
-              image: "ProductRG.png",
-              video: "VideoRG.mov",
+              image: "ProductFF.jpg",
+              video: "VideoFFF.mov",
               description:
                  "💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUn véritable sachet de bonbons multicolores : fruits rouges, agrumes sucrés et petite finale pâtissière ultra-gourmande.\n\nNEW DROP 2026/27 ✨✨",
               tarifs: [
@@ -506,8 +506,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "💎 Fresh Frozen 💎",
-              image: "ProductPT.png",
-              video: "VideoPT.mov",
+              image: "ProductFF.jpg",
+              video: "VideoFFF.mov",
               description:
                   "💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nUne vague massive de pêche mûre et de nectarine, accompagnée d'une douceur candy et d'une finale tropicale persistante.\n\nNEW DROP 2026/27 ✨✨",
               tarifs: [
@@ -526,8 +526,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "⚡️ Double Static ⚡️",
-              image: "ProductBP.png",
-              video: "VideoBP.mov",
+              image: "ProductDS.jpg",
+              video: "VideoDS.mov",
               description:   "⚡️ DOUBLE STATIC PREMIUM ⚡️\n\nUne extraction fine et ultra-propre aux notes de papaye mûre, de mangue fermentée et de pâtisserie sucrée. Un profil profond, gras et exotique.\n\n💎 FULLMELTFARM SELECTION 💎",
               tarifs: [
                 { weight: "5g", price: 60.0 },
@@ -543,8 +543,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "⚡️ Double Static ⚡️",
-              image: "ProductBX.png",
-              video: "VideoBX.mov",
+              image: "ProductDS.jpg",
+              video: "VideoDS.mov",
               description:   "⚡️ DOUBLE STATIC PREMIUM ⚡️\n\nUn cocktail pétillant de myrtille et d'agrumes frais, relevé par une pointe sucrée et gazeuse. Un profil vif, fruité et lumineux.\n\n💎 FULLMELTFARM SELECTION 💎",
               tarifs: [
                 { weight: "5g", price: 60.0 },
@@ -560,8 +560,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "⚡️ Double Static ⚡️",
-              image: "ProductPN.png",
-              video: "VideoPN.mov",
+              image: "ProductDS.jpg",
+              video: "VideoDS.mov",
               description:   "⚡️ DOUBLE STATIC PREMIUM ⚡️\n\nUne explosion d'ananas confit et de jus tropical avec une légère touche acidulée. Un profil franc, gourmand et extrêmement persistant.\n\n💎 FULLMELTFARM SELECTION 💎",
               tarifs: [
                 { weight: "5g", price: 60.0 },
@@ -577,8 +577,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "⚡️ Double Static ⚡️",
-              image: "ProductCH.png",
-              video: "VideoCH.mov",
+              image: "ProductDS.jpg",
+              video: "VideoDS.mov",
               description:   "⚡️ DOUBLE STATIC PREMIUM ⚡️\n\nDes notes intenses de cerise noire et de bonbon acidulé, accompagnées d'un fond crémeux. Un profil sucré, puissant et ultra-gourmand.\n\n💎 FULLMELTFARM SELECTION 💎",
               tarifs: [
                 { weight: "5g", price: 60.0 },
@@ -595,8 +595,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "🔮 Plasma Static 🔮",
-              image: "ProductRTZ.png",
-              video: "VideoRTZ.mov",
+              image: "ProductPS.jpg",
+              video: "VideoPS.mov",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nFormat 50g. La célèbre Runtz sublimée par la technologie Plasma. Un mélange sucré et gazeux foudroyant.\n\n⚠️ Pas pour les amateurs de fume ⛔️",
               tarifs: [
@@ -614,8 +614,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "🔮 Plasma Static 🔮",
-              image: "ProductBIS.png",
-              video: "VideoBIS.mov",
+              image: "ProductPS.jpg",
+              video: "VideoPS.mov",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nFormat 50g. Un profil umami et biscuité extrêmement lourd. Une sédation profonde et immédiate.\n\n⚠️ Pas pour les amateurs de fume ⛔️",
               tarifs: [
@@ -633,8 +633,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "🔮 Plasma Static 🔮",
-              image: "ProductGK.png",
-              video: "VideoGK.mov",
+              image: "ProductPS.jpg",
+              video: "VideoPS.mov",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nFormat 50g. Le croisement parfait entre le funky de l'ail et la douceur sucrée. Un profil atypique et puissant.\n\n⚠️ Pas pour les amateurs de fume ⛔️",
               tarifs: [
@@ -652,8 +652,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "🔮 Plasma Static 🔮",
-              image: "ProductMK.png",
-              video: "VideoMK.mov",
+              image: "ProductPS.jpg",
+              video: "VideoPS.mov",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nFormat 50g. Un concentré tropical percutant. L'alliance de la mangue fraîche et de l'effet dévastateur du Plasma.\n\n⚠️ Pas pour les amateurs de fume ⛔️",
               tarifs: [
@@ -671,8 +671,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "🔮 Plasma Static 🔮",
-              image: "ProductPMM.png",
-              video: "VideoPMM.mov",
+              image: "ProductPS.jpg",
+              video: "VideoPS.mov",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nUn profil terpénique floral, savonneux et gazeux. Une claque cérébrale instantanée.\n\n⚠️ Pas pour les amateurs de fume ⛔️",
               tarifs: [
@@ -690,8 +690,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "🔮 Plasma Static 🔮",
-              image: "ProductSpi.png",
-              video: "VideoSpi.mov",
+              image: "ProductPS.jpg",
+              video: "VideoPS.mov",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nNotes pétillantes et citronnées rappelant un soda frais. Pureté chirurgicale et effet électrique.\n\n⚠️ Pas pour les amateurs de fume ⛔️",
               tarifs: [
@@ -709,8 +709,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "🔮 Plasma Static 🔮",
-              image: "ProductMB.png",
-              video: "VideoMB.mov",
+              image: "ProductPS.jpg",
+              video: "VideoPS.mov",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nUn gaz lourd, terreux et piquant. Une puissance sédative qui ne pardonne pas.\n\n⚠️ Pas pour les amateurs de fume ⛔️",
               tarifs: [
@@ -728,8 +728,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "FULLMELTFARM 🍶",
               promoEligible: true,
               type: "🔮 Plasma Static 🔮",
-              image: "ProductRM.png",
-              video: "VideoRM.mov",
+              image: "ProductPS.jpg",
+              video: "VideoPS.mov",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nLa gourmandise à l'état pur. Des notes de pâtisserie crémeuse infusées aux fruits rouges.\n\n⚠️ Pas pour les amateurs de fume ⛔️",
               tarifs: [
@@ -902,8 +902,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "BANANA PUNCH 🍌🔥",
               farm: "OperaTerps 🇲🇦",
               type: "90u 🍓",
-              image: "ProductBNN.png",
-              video: "VideoBNN.mov",
+              image: "ProductOP.jpg",
+              video: "VideoOP.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nL'alliance parfaite entre la rondeur d'une banane bien mûre et un fond épicé percutant. Texture onctueuse et montée cérébrale immédiate.",
               tarifs: [
@@ -920,8 +920,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "CÉRÉALE MILK 🌾🥛",
               farm: "OperaTerps 🇲🇦",
               type: "90u 🍓",
-              image: "ProductC.png",
-              video: "VideoC.mov",
+              image: "ProductOP.jpg",
+              video: "VideoOP.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUn profil terpénique ultra-gourmand rappelant un bol de céréales fruitées baignant dans du lait vanillé. Résine très grasse et effet profondément apaisant.",
               tarifs: [
@@ -938,8 +938,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "CHERRY PIE 🍒",
               farm: "OperaTerps 🇲🇦",
               type: "90u 🍓",
-              image: "ProductChe.png",
-              video: "VideoChe.mov",
+              image: "ProductOP.jpg",
+              video: "VideoOP.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nDes arômes envoûtants de tarte aux cerises tout juste sortie du four. L'équilibre idéal entre la douceur fruitée et une légère note acidulée.",
               tarifs: [
@@ -956,8 +956,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "STRAWBERRY CAKE 🍓🍰",
               farm: "OperaTerps 🇲🇦",
               type: "90u 🍓",
-              image: "ProductSt.png",
-              video: "VideoSt.mov",
+              image: "ProductOP.jpg",
+              video: "VideoOP.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne véritable pâtisserie en bouche. Des notes intenses de fraises fraîches enrobées d'une crème sucrée. Un délice absolu pour les chasseurs de terps.",
               tarifs: [
