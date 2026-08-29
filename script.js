@@ -743,7 +743,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         },
-        {
+       /*  {
           id: "🇺🇸 DROP USA 🇺🇸",
           name: "🇺🇸 DROP USA 🇺🇸",
           products: [
@@ -796,8 +796,8 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
           ],
-        },
-        {
+        }, */
+        /* {
           id: "ATHENA FARMS 🧪",
           name: "ATHENA FARMS 🧪",
           products: [
@@ -892,7 +892,7 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
           ],
-        },
+        }, */
         {
           id: "OperaTerps 🇲🇦",
           name: "OperaTerps 🇲🇦",
@@ -973,7 +973,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
       ],
     },
-    {
+   /*  {
       id: "WEED",
       name: " 🕯 Weed 🕯",
       type: "Weed",
@@ -1030,7 +1030,7 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         },
       ],
-    },
+    }, */
   ];
 
   // --- VARIABLES D'ÉTAT ---
