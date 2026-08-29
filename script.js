@@ -589,7 +589,7 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
             // --- 🔮 PLASMA STATIC (Séparés par Strain) 🔮 ---
-            {
+           /*  {
               id: "PLASMA RUNTZ 🧬",
               name: "RUNTZ 🧬",
               farm: "FULLMELTFARM 🍶",
@@ -626,8 +626,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 950.0 },
                 { weight: "200g", price: 1850.0 },
               ],
-            },
-            {
+            }, */
+            /* {
               id: "PLASMA GARLIC COCKTAIL 🍸🍭",
               name: "GARLIC COCKTAIL 🍸🍭",
               farm: "FULLMELTFARM 🍶",
@@ -645,7 +645,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 950.0 },
                 { weight: "200g", price: 1850.0 },
               ],
-            },
+            }, */
             {
               id: "PLASMA MANGO KUSH 🥭⚡️",
               name: "MANGO KUSH 🥭⚡️",
