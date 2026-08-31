@@ -971,6 +971,46 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         },
+        {
+          id: "La Ruche Du Jbel 🐝",
+          name: "La Ruche Du Jbel 🐝",
+          products: [
+            {
+              id: "Reve Du Rif 💭",
+              name: "Reve Du Rif 💭",
+              farm: "La Ruche Du Jbel 🐝",
+              type: "120u 🏅",
+              image: "ProductRIF.png",
+              video: "VideoRIF.mov",
+              description:
+                 "🏅 DRY-SIFT 120u PREMIUM 🏅\n\nUne sélection inspirée des saveurs du Rif, avec trois profils bien distincts entre fruité tropical, notes gazeuses et agrumes intenses.\n\n🌿 STRAINS DISPONIBLES :\n\n- Papaya 🥭\n- Sour Diesel ⛽️\n- Tropicana Cookies 🍊🍪",
+              tarifs: [
+                { weight: "10g", price: 80.0 },
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
+                { weight: "200g", price: 850.0 },
+              ],
+            },
+            {
+              id: "Terpsologue 👨‍🔬",
+              name: "Terpsologue 👨‍🔬",
+              farm: "La Ruche Du Jbel 🐝",
+              type: "120u 🏅",
+              image: "ProductT.png",
+              video: "VideoT.mov",
+              description:
+                  "🏅 DRY-SIFT 120u PREMIUM 🏅\n\nUne sélection travaillée autour de profils terpéniques variés : notes profondes et funky, douceur fruitée du raisin et finale crémeuse à la fraise-banane.\n\n🧪 STRAINS DISPONIBLES :\n\n- GMO 🧄\n- Grape Pie 🍇🥧\n- Strawnana 🍓🍌",
+              tarifs: [
+                { weight: "10g", price: 80.0 },
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
+                { weight: "200g", price: 850.0 },
+              ],
+            },
+          ],
+        },
       ],
     },
    /*  {
