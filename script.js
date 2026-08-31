@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // --- DONNÉES DE L'APPLICATION ---
   const appData = [
-    {
+    /* {
       id: "PACK PROMO🎁",
       name: "PACK PROMO🎁",
       type: "PACK PROMO🎁",
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         },
       ],
-    },
+    }, */
     {
       id: "HASH",
       name: "🍫 Hash 🍫",
