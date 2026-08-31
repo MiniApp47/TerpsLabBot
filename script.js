@@ -980,7 +980,7 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "Reve Du Rif 💭",
               farm: "La Ruche Du Jbel 🐝",
               type: "120u 🏅",
-              image: "ProductRIF.png",
+              image: "ProductRIF.jpg",
               video: "VideoRIF.mov",
               description:
                  "🏅 DRY-SIFT 120u PREMIUM 🏅\n\nUne sélection inspirée des saveurs du Rif, avec trois profils bien distincts entre fruité tropical, notes gazeuses et agrumes intenses.\n\n🌿 STRAINS DISPONIBLES :\n\n- Papaya 🥭\n- Sour Diesel ⛽️\n- Tropicana Cookies 🍊🍪",
@@ -997,7 +997,7 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "Terpsologue 👨‍🔬",
               farm: "La Ruche Du Jbel 🐝",
               type: "120u 🏅",
-              image: "ProductT.png",
+              image: "ProductT.jpg",
               video: "VideoT.mov",
               description:
                   "🏅 DRY-SIFT 120u PREMIUM 🏅\n\nUne sélection travaillée autour de profils terpéniques variés : notes profondes et funky, douceur fruitée du raisin et finale crémeuse à la fraise-banane.\n\n🧪 STRAINS DISPONIBLES :\n\n- GMO 🧄\n- Grape Pie 🍇🥧\n- Strawnana 🍓🍌",
